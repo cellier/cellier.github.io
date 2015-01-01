@@ -9,7 +9,7 @@
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}" href="/">主页</a>
+    <a class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}" href="/">Home</a>
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
@@ -25,11 +25,11 @@
       {% endif %}
     {% endfor %}
 
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}">文章目录</a>
-    <a class="sidebar-nav-item" href="http://0tmt.com/about/">关于</a>
-    <a class="sidebar-nav-item" href="Mailto:cellier@mail.com">cellier@mail.com</a>
+    <a class="sidebar-nav-item" href="{{ site.github.repo }}">About</a>
+    <a class="sidebar-nav-item" href="http://www.zhihu.com/people/cellier_">Zhihu</a>
+    <a class="sidebar-nav-item" href="http://www.douban.com/people/cellier/">Douban</a>
+    <a class="sidebar-nav-item" href="Mailto:cellier@mail.com">Email</a>
 
-    <span class="sidebar-nav-item">Beta{{ site.version }}</span>
   </nav>
 
   <div class="sidebar-item">

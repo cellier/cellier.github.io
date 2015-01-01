@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Introducing Lanyon
+title: 关于cellier.me
 ---
 
-Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+celiier.me由 [Jekyll](http://jekyllrb.com) 平台进行搭建，theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
 
 ### Built on Poole
 

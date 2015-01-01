@@ -6,10 +6,10 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            cellier's blog
-tagline:          'write sth'
-description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://lanyon.getpoole.com
+title:            cellier
+tagline:          '我们从未念及大爆炸前同挤奇点的友谊'
+description:      '『he looks like a dog so』 『because he is a PM』'
+url:              http://cellier.me
 
 author:
   name:           'cellier'
@@ -18,6 +18,13 @@ author:
 paginate:         5
 
 # Custom vars
-version:          1.0.0
+version:          0.0.3
+
+# Comments
+
+comments :
+    provider : duoshuo
+    duoshuo :
+          short_name : cellier-me
 
 

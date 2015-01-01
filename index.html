@@ -14,25 +14,28 @@ title: home
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
+    {{ post.content  | | split:'<!--break-->' | first }}
+
+    <!--{{ post.content }}-->
+
   </div>
   {% endfor %}
 </div>
 
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="/page{{paginator.next_page}}">上一页</a>
+    <a class="pagination-item older" href="/page{{paginator.next_page}}">..</a>
   {% else %}
-    <span class="pagination-item older">上一页</span>
+    <span class="pagination-item older">..</span>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="/">下一页</a>
+      <a class="pagination-item newer" href="/">...</a>
     {% else %}
-      <a class="pagination-item newer" href="/page{{paginator.previous_page}}">下一页</a>
+      <a class="pagination-item newer" href="/page{{paginator.previous_page}}">...</a>
     {% endif %}
   {% else %}
-    <span class="pagination-item newer">下一页</span>
+    <span class="pagination-item newer">...</span>
   {% endif %}
 </div>
 

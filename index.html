@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: home
 ---
 
 <div class="posts">
@@ -21,18 +21,18 @@ title: Home
 
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
+    <a class="pagination-item older" href="/page{{paginator.next_page}}">上一页</a>
   {% else %}
-    <span class="pagination-item older">Older</span>
+    <span class="pagination-item older">上一页</span>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="/">Newer</a>
+      <a class="pagination-item newer" href="/">下一页</a>
     {% else %}
-      <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Newer</a>
+      <a class="pagination-item newer" href="/page{{paginator.previous_page}}">下一页</a>
     {% endif %}
   {% else %}
-    <span class="pagination-item newer">Newer</span>
+    <span class="pagination-item newer">下一页</span>
   {% endif %}
 </div>
 

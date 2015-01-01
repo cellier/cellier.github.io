@@ -4,7 +4,7 @@
  <title>Cellier</title>
  <link href="http://cellier.me/atom.xml" rel="self"/>
  <link href="http://cellier.me/"/>
- <updated>2015-01-02T01:09:12+08:00</updated>
+ <updated>2015-01-02T02:01:30+08:00</updated>
  <id>http://cellier.me</id>
  <author>
    <name>cellier</name>
@@ -19,7 +19,7 @@
    <id>http://cellier.me/2015/12/31/二零一四年的思考</id>
    <content type="html">&lt;p&gt;在我二十岁之前，受“人类一思考，上帝就发笑”的影响，怕自己思考起来把上帝给逗死，导致人类没了信仰（貌似某类民族一直没有）...于是一直没敢思考。&lt;/p&gt;
 
-&lt;!--more--&gt;
+&lt;!-- more --&gt;
 
 &lt;p&gt;直到近些年，睡得姑娘多了，每次睡完之后，分别之前，她们总会启发式地教育我：盛碧星，你不是个人！
 刚一开始，我还有所反驳：我有鼻子有脸，基本结构都和你一样，凭什么不是人，如果不是人，为什么还能和你XXOO...&lt;/p&gt;
@@ -96,7 +96,7 @@
    <id>http://cellier.me/2015/01/02/introducing-222222副本 4</id>
    <content type="html">&lt;p&gt;celiier.me由 &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; 平台进行搭建 ，theme that places content first by tucking away navigation in a hidden drawer. It&amp;#39;s based on &lt;a href=&quot;http://getpoole.com&quot;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
 
-&lt;!--more--&gt;
+&lt;!-- more --&gt;
 
 &lt;h3&gt;Built on Poole&lt;/h3&gt;
 

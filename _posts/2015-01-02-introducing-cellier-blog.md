@@ -5,6 +5,8 @@ title: 关于cellier.me
 
 celiier.me由 [Jekyll](http://jekyllrb.com) 平台进行搭建，theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
 
+<!--more-->
+
 ### Built on Poole
 
 Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by [@mdo](https://twitter.com/mdo). Poole, and every theme built on it (like Lanyon here) includes the following:

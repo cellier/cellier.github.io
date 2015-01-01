@@ -2,8 +2,6 @@
 markdown:         redcarpet
 pygments:         true
 
-excerpt_separator: "\n\n\n"
-
 # Permalinks
 permalink:        pretty
 
@@ -17,7 +15,7 @@ author:
   name:           'cellier'
   email:          cellier@mail.com
 
-paginate:         5
+paginate: 3
 
 # Custom vars
 version:          0.0.3

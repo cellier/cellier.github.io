@@ -4,7 +4,7 @@
  <title>Cellier</title>
  <link href="http://cellier.me/atom.xml" rel="self"/>
  <link href="http://cellier.me/"/>
- <updated>2015-01-01T22:56:11+08:00</updated>
+ <updated>2015-01-02T01:09:12+08:00</updated>
  <id>http://cellier.me</id>
  <author>
    <name>cellier</name>
@@ -13,19 +13,32 @@
 
  
  <entry>
-   <title>关于</title>
-   <link href="http://cellier.me/2015/12/31/%E5%85%B3%E4%BA%8E/"/>
+   <title>二零一四年的思考</title>
+   <link href="http://cellier.me/2015/12/31/%E4%BA%8C%E9%9B%B6%E4%B8%80%E5%9B%9B%E5%B9%B4%E7%9A%84%E6%80%9D%E8%80%83/"/>
    <updated>2015-12-31T00:00:00+08:00</updated>
-   <id>http://cellier.me/2015/12/31/关于</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project&amp;#39;s readme&lt;/a&gt;:&lt;/p&gt;
+   <id>http://cellier.me/2015/12/31/二零一四年的思考</id>
+   <content type="html">&lt;p&gt;在我二十岁之前，受“人类一思考，上帝就发笑”的影响，怕自己思考起来把上帝给逗死，导致人类没了信仰（貌似某类民族一直没有）...于是一直没敢思考。&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;直到近些年，睡得姑娘多了，每次睡完之后，分别之前，她们总会启发式地教育我：盛碧星，你不是个人！
+刚一开始，我还有所反驳：我有鼻子有脸，基本结构都和你一样，凭什么不是人，如果不是人，为什么还能和你XXOO...&lt;/p&gt;
+
+&lt;p&gt;后来见识了马和驴的跨种族交配之后，我意识到，能一起XXOO的，也许那姑娘是人，而我有可能不是，这样在学识和经历上双重进步下，我渐渐认同了自己不是人的定论。&lt;/p&gt;
+
+&lt;p&gt;不是人之后，也就脱离了能逗死上帝的干系，于是我大胆、放浪不羁地开始了漫长的思考之路...&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Jekyll is a simple, blog aware, static site generator. It takes a template directory [...] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.&lt;/p&gt;
+&lt;p&gt;我们总是在寻找&lt;/p&gt;
+
+&lt;p&gt;寻找一个不可靠的人&lt;/p&gt;
+
+&lt;p&gt;和一张可以暂时停留的床&lt;/p&gt;
+
+&lt;p&gt;...&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;It&amp;#39;s an immensely useful tool and one we encourage you to use here with Hyde.&lt;/p&gt;
-
-&lt;p&gt;Find out more by &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;听听&lt;a href=&quot;http://site.douban.com/huazhou/&quot;&gt;花粥的歌&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
@@ -35,6 +48,8 @@
    <updated>2015-01-02T00:00:00+08:00</updated>
    <id>http://cellier.me/2015/01/02/introducing-cellier-blog</id>
    <content type="html">&lt;p&gt;celiier.me由 &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; 平台进行搭建，theme that places content first by tucking away navigation in a hidden drawer. It&amp;#39;s based on &lt;a href=&quot;http://getpoole.com&quot;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
+
+&lt;!--more--&gt;
 
 &lt;h3&gt;Built on Poole&lt;/h3&gt;
 
@@ -79,11 +94,9 @@
    <link href="http://cellier.me/2015/01/02/introducing-222222%E5%89%AF%E6%9C%AC%204/"/>
    <updated>2015-01-02T00:00:00+08:00</updated>
    <id>http://cellier.me/2015/01/02/introducing-222222副本 4</id>
-   <content type="html">&lt;p&gt;celiier.me由&lt;/p&gt;
+   <content type="html">&lt;p&gt;celiier.me由 &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; 平台进行搭建 ，theme that places content first by tucking away navigation in a hidden drawer. It&amp;#39;s based on &lt;a href=&quot;http://getpoole.com&quot;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
 
 &lt;!--more--&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; 平台进行搭建 &amp;lt;!-- more --&amp;gt;，theme that places content first by tucking away navigation in a hidden drawer. It&amp;#39;s based on &lt;a href=&quot;http://getpoole.com&quot;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
 
 &lt;h3&gt;Built on Poole&lt;/h3&gt;
 
@@ -108,18 +121,6 @@
 &lt;li&gt;Two orientations for content and sidebar, default (left sidebar) and &lt;a href=&quot;https://github.com/poole/lanyon#reverse-layout&quot;&gt;reverse&lt;/a&gt; (right sidebar), available via &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; classes&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/poole/lanyon#themes&quot;&gt;Eight optional color schemes&lt;/a&gt;, available via &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; classes&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/poole/lanyon#readme&quot;&gt;Head to the readme&lt;/a&gt; to learn more.&lt;/p&gt;
-
-&lt;h3&gt;Browser support&lt;/h3&gt;
-
-&lt;p&gt;Lanyon is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.&lt;/p&gt;
-
-&lt;h3&gt;Download&lt;/h3&gt;
-
-&lt;p&gt;Lanyon is developed on and hosted with GitHub. Head to the &lt;a href=&quot;https://github.com/poole/lanyon&quot;&gt;GitHub repository&lt;/a&gt; for downloads, bug reports, and features requests.&lt;/p&gt;
-
-&lt;p&gt;Thanks!&lt;/p&gt;
 </content>
  </entry>
  
@@ -224,7 +225,7 @@
    <id>http://cellier.me/2015/01/02/introducing-222222</id>
    <content type="html">&lt;p&gt;celiier.me由 &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; 平台进行搭建，theme that places content first by tucking away navigation in a hidden drawer. It&amp;#39;s based on &lt;a href=&quot;http://getpoole.com&quot;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
 
-&lt;!-- more --&gt;
+&lt;!--more--&gt;
 
 &lt;h3&gt;Built on Poole&lt;/h3&gt;
 
@@ -272,6 +273,8 @@
    <content type="html">&lt;div class=&quot;message&quot;&gt;
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 &lt;/div&gt;
+
+&lt;!--more--&gt;
 
 &lt;p&gt;Cum sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt;
 

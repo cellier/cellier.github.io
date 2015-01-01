@@ -42,25 +42,61 @@ body {
 
 
 html {
-
 font-family: normal, 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, STKaiti, sans-serif;
 -webkit-font-smoothing:antialiased;
-font-size:22px;
-font-size:1rem;
+font-size:20px;
+font-size:1.08rem;
 font-weight: 400;
-  
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1{
 font-family: normal, 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, STKaiti, sans-serif;
 -webkit-font-smoothing:antialiased;
 font-size:22px;
-font-size:2rem;
+font-size:1.96rem;
 font-weight: 400;
 letter-spacing: -0.01rem;
 }
-
-
+h2{
+font-family: normal, 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, STKaiti, sans-serif;
+-webkit-font-smoothing:antialiased;
+font-size:22px;
+font-size:1.78rem;
+font-weight: 400;
+letter-spacing: -0.01rem;
+}
+h3{
+font-family: normal, 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, STKaiti, sans-serif;
+-webkit-font-smoothing:antialiased;
+font-size:22px;
+font-size:1.59rem;
+font-weight: 400;
+letter-spacing: -0.01rem;
+}
+h4{
+font-family: normal, 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, STKaiti, sans-serif;
+-webkit-font-smoothing:antialiased;
+font-size:22px;
+font-size:1.38rem;
+font-weight: 400;
+letter-spacing: -0.01rem;
+}
+h5{
+font-family: normal, 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, STKaiti, sans-serif;
+-webkit-font-smoothing:antialiased;
+font-size:22px;
+font-size:1.26rem;
+font-weight: 400;
+letter-spacing: -0.01rem;
+}
+h6{
+font-family: normal, 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, STKaiti, sans-serif;
+-webkit-font-smoothing:antialiased;
+font-size:22px;
+font-size:1.17rem;
+font-weight: 400;
+letter-spacing: -0.01rem;
+}
 /*
  * Wrapper
  *

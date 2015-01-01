@@ -9,6 +9,13 @@ layout: default
 </div>
 
 
+<!--
+<hr>
+<div class="copyright">
+<p><small><small>from:</small><a href='{{page.url}}'><small>cellier's blog</small></small></a></p>
+</div>
+-->
+
 <!-- 多说评论框 start -->   
 <div class="ds-thread" data-thread-key="{{page.id}}" data-title="{{page.title}}" data-url="cellier.me{{page.url}}"> 
 </div> 
@@ -27,8 +34,9 @@ layout: default
       <li>
         <h7>
           <a href="{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
+            <small>{{ post.title }}</small>
+
+            <!--{{ post.date | date_to_string }}-->
           </a>
         </h7>
       </li>

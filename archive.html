@@ -13,11 +13,8 @@ title: home
     </h1>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
-    {{ post.content  |split:'<!--more-->'|first }}
-    <!--{{ post.excerpt }}-->
 
-    <!--{{ post.content | truncate:"120" }}-->
-
+    {{ post.content }}
 
   </div>
   {% endfor %}

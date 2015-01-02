@@ -2,32 +2,38 @@
 layout: page
 title: About
 ---
+<br>
 
 <p class="message">
-"这个世界……是孤独的,在它以外什么都没有,它只靠作为整体而静止不动的它自己,它自己就是一切."---刻卜勒
-</p>
+"这个世界……是孤独的,在它以外什么都没有,它只靠作为整体而静止不动的它自己,它自己就是一切."---刻卜勒</p>
 
-我是cellier, 暂时大概是一条不正规的产品狗, 坐标上海.爱好是研究社交产品，期待能帮忙解决人类孤独问题...
+我是cellier, 暂时大概是一条不正规的产品狗, 坐标上海.爱好是研究社交产品，期待能帮忙解决人类孤独问题...大多数社交网站都能通过cellier这个昵称找到我:
 
-大多数社交网站都能通过cellier这个昵称找到我:
+* <a href="http://www.zhihu.com/people/cellier" target="_blank">知乎2013</a>
+* <a href="http://www.zhihu.com/people/cellier_" target="_blank">知乎2014</a>
+* <a href="http://www.douban.com/people/cellier/" target="_blank">豆瓣</a>
+* <a href="https://medium.com/@cellier" target="_blank">medium</a>
+* <a href="https://twitter.com/cellier_" target="_blank">twitter</a>
+* <a href="http://i.ui.cn/ucenter/93343" target="_blank">UI中国</a>
 
-* [知乎](http://www.zhihu.com/people/cellier_)
-* [豆瓣](http://www.douban.com/people/cellier/)
-* [medium](https://medium.com/@cellier)
-* [twitter](https://twitter.com/cellier_)
-* [UI中国](http://i.ui.cn/ucenter/93343)
+如果对社交产品感兴趣，你也可以通过[cellier@mail.com](mailto:cellier@mail.com)和我交流
 
-如果需要什么交流，你也可以通过[cellier@mail.com](mailto:cellier@mail.com)联系我
+<br><br>
 
 #### 本站
+<br>
 
-* 使用[Jekyll](http://jekyllrb.com)搭建
-* 架设在[GitHub Pages](https://pages.github.com)
-* 主题来自[lanyon](https://github.com/poole/lanyon)
-* 使用 [Sublime Text 3](http://sublimetext.com)进行了主题部分更改
+* 使用<a href="http://jekyllrb.com" target="_blank">Jekyll</a>搭建
+* 架设在<a href="https://pages.github.com" target="_blank">GitHub Pages</a>
+* 主题<a href="https://github.com/poole/lanyon" target="_blank">lanyon</a>
+* 编码工具一：<a href="http://sublimetext.com" target="_blank">Sublime Text 3</a>
+* 编码工具二：<a href="http://realmacsoftware.com/typed" target="_blank">Typed</a>
 * 在写此页面时，正听着万青：
 
+<br>
 <embed src="http://music.163.com/style/swf/widget.swf?sid=386840&type=2&auto=0&width=280&height=32" width="400" height="52"  allowNetworking="all"></embed>
+
+<br><br>
 
 更多关于此网站的搭建，可以看此[教程](https://www.baidu.com)*还未写作*
 

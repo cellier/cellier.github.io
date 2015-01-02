@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Cellier</title>
+ <link href="http://cellier.me/atom.xml" rel="self"/>
+ <link href="http://cellier.me/"/>
+ <updated>2015-01-02T14:06:09+08:00</updated>
+ <id>http://cellier.me</id>
+ <author>
+   <name>cellier</name>
+   <email>cellier@mail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>二零一四年的思考</title>
+   <link href="http://cellier.me/2015/12/31/2014things/"/>
+   <updated>2015-12-31T00:00:00+08:00</updated>
+   <id>http://cellier.me/2015/12/31/2014things</id>
+   <content type="html">&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;在我二十岁之前,受“人类一思考，上帝就发笑”的影响,害怕自己思考起来把上帝给逗死,导致人类没了信仰.于是一直没敢思考.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;直到近些年，睡得姑娘渐渐多了...每次睡完之后、分别之前，她们总会启发式地教育我：盛碧星，你不是个人！
+刚一开始，我在心理层面还对自己抱有希望，于是有所反驳：我有鼻子有脸，基本结构都和她们一样，还能和她们进行同类间正常“友谊交流”...
+后来见识了美产电影的跨种族交配之后，我意识到，能一起XXOO的也并非同类，这样在学识和经历的双重进步下，我渐渐认同了自己不是人的定论。&lt;/p&gt;
+
+&lt;p&gt;不是人之后，也就脱离了能逗死上帝的干系，顺理成章，放浪不羁的思考也就成了我的家常便饭。&lt;/p&gt;
+
+&lt;h2&gt;二零一四的诸事&lt;/h2&gt;
+
+&lt;h3&gt;工作&lt;/h3&gt;
+
+&lt;p&gt;我终于毕业了，离开了对改名十分热衷的&lt;a href=&quot;http://www.hrbeu.edu.cn/&quot;&gt;母校&lt;/a&gt;，踏入了社会这个“大型草榴论坛”。我在校期间学的是“炼钢”专业，但在我手中的铁没有成钢的迹象，又对互联网一见钟情，所以也就草草学了点 I（mei）T（gong）技术，进入了信息产业的浪潮之巅---下面的浪潮之底...在此，特别感谢&lt;a href=&quot;https://itunes.apple.com/cn/app/id636450145?mt=8&quot;&gt;啦啦-悬赏找人吃喝玩乐&lt;/a&gt;的创始人曾重以及现在我的产品总监&lt;a href=&quot;http://joby.cc&quot;&gt;joby&lt;/a&gt;，是他们给了我机会。&lt;/p&gt;
+
+&lt;h3&gt;爱情&lt;/h3&gt;
+
+&lt;p&gt;一张图解释：
+&lt;img src=&quot;http://intorice.qiniudn.com/bd3eb13533fa828bdf569f5bfd1f4134970a5a14.jpg&quot; alt=&quot;就是乱&quot;&gt;&lt;/p&gt;
+
+&lt;h3&gt;个人网站&lt;/h3&gt;
+
+&lt;p&gt;2013年末到2014年终建过多个个站：
+- &lt;a href=&quot;http://www.intorice.com&quot;&gt;intorice&lt;/a&gt;，2013年使用WP搭建的个人简历站
+- &lt;a href=&quot;http://www.0tmt.com/about&quot;&gt;about&lt;/a&gt;,Copy&lt;a href=&quot;http://iconmoon.com/blog2/&quot; target=&quot;_blank&quot;&gt;JJ Ying&lt;/a&gt;做的个人介绍页
+- &lt;a href=&quot;http://0tmt.com/resume/&quot;&gt;resume&lt;/a&gt;,一个极简的个人简历，也放了一些我的视（mei）觉（gong）作品
+- &lt;a href=&quot;http://0tmt.com&quot;&gt;0tmt&lt;/a&gt;，个人站（由原先的国外TMT产业媒体站改的，原因？因为英文太烂，国外站得东西翻译起来太吃力）
+- &lt;a href=&quot;http://0tmt.com/blog/&quot;&gt;0tmt.blog&lt;/a&gt;,个人博客站，有一些比较羞涩的个人日记（年少不懂事）。&lt;/p&gt;
+
+&lt;h3&gt;设计稿-个人资料动效&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://tmt2014.qiniudn.com/wp-content/uploads/2014/12/me.gif&quot; alt=&quot;个人资料页&quot;&gt;&lt;/p&gt;
+
+&lt;h3&gt;喜欢的民谣歌手&lt;/h3&gt;
+
+&lt;p&gt;还是&lt;a href=&quot;http://site.douban.com/huazhou/&quot;&gt;花粥&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;我们总是在寻找&lt;/p&gt;
+
+&lt;p&gt;寻找一个不可靠的人&lt;/p&gt;
+
+&lt;p&gt;和一张可以暂时停留的床&lt;/p&gt;
+
+&lt;p&gt;...&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+
+</feed>

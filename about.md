@@ -7,7 +7,7 @@ title: About
 <p class="message">
 "这个世界……是孤独的,在它以外什么都没有,它只靠作为整体而静止不动的它自己,它自己就是一切."---刻卜勒</p>
 
-我是cellier, 暂时大概是一条不正规的产品狗, 坐标上海.爱好是研究社交产品，期待能帮忙解决人类孤独问题...大多数社交网站都能通过cellier这个昵称找到我:
+我是cellier, 暂时大概是一条不正规的产品狗, 坐标上海.爱好是研究社交产品，期待能帮忙解决人类孤独问题...你可以在各种社交应用里通过cellier这个昵称找到我，下面是我长期使用的社交产品:
 
 * <a href="http://www.zhihu.com/people/cellier" target="_blank">知乎2013</a>
 * <a href="http://www.zhihu.com/people/cellier_" target="_blank">知乎2014</a>
@@ -16,7 +16,7 @@ title: About
 * <a href="https://twitter.com/cellier_" target="_blank">twitter</a>
 * <a href="http://i.ui.cn/ucenter/93343" target="_blank">UI中国</a>
 
-如果对社交产品感兴趣，你也可以通过[cellier@mail.com](mailto:cellier@mail.com)和我交流
+如果想和我聊聊社交产品，你可以给我发邮件：[cellier@mail.com](mailto:cellier@mail.com)
 
 <br><br>
 

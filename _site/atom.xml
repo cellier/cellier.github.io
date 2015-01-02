@@ -4,7 +4,7 @@
  <title>Cellier</title>
  <link href="http://cellier.me/atom.xml" rel="self"/>
  <link href="http://cellier.me/"/>
- <updated>2015-01-02T14:06:09+08:00</updated>
+ <updated>2015-01-02T14:13:17+08:00</updated>
  <id>http://cellier.me</id>
  <author>
    <name>cellier</name>
@@ -35,17 +35,21 @@
 
 &lt;h3&gt;爱情&lt;/h3&gt;
 
-&lt;p&gt;一张图解释：
-&lt;img src=&quot;http://intorice.qiniudn.com/bd3eb13533fa828bdf569f5bfd1f4134970a5a14.jpg&quot; alt=&quot;就是乱&quot;&gt;&lt;/p&gt;
+&lt;p&gt;一张图解释---乱：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://intorice.qiniudn.com/bd3eb13533fa828bdf569f5bfd1f4134970a5a14.jpg&quot; alt=&quot;就是乱&quot;&gt;&lt;/p&gt;
 
 &lt;h3&gt;个人网站&lt;/h3&gt;
 
-&lt;p&gt;2013年末到2014年终建过多个个站：
-- &lt;a href=&quot;http://www.intorice.com&quot;&gt;intorice&lt;/a&gt;，2013年使用WP搭建的个人简历站
-- &lt;a href=&quot;http://www.0tmt.com/about&quot;&gt;about&lt;/a&gt;,Copy&lt;a href=&quot;http://iconmoon.com/blog2/&quot; target=&quot;_blank&quot;&gt;JJ Ying&lt;/a&gt;做的个人介绍页
-- &lt;a href=&quot;http://0tmt.com/resume/&quot;&gt;resume&lt;/a&gt;,一个极简的个人简历，也放了一些我的视（mei）觉（gong）作品
-- &lt;a href=&quot;http://0tmt.com&quot;&gt;0tmt&lt;/a&gt;，个人站（由原先的国外TMT产业媒体站改的，原因？因为英文太烂，国外站得东西翻译起来太吃力）
-- &lt;a href=&quot;http://0tmt.com/blog/&quot;&gt;0tmt.blog&lt;/a&gt;,个人博客站，有一些比较羞涩的个人日记（年少不懂事）。&lt;/p&gt;
+&lt;p&gt;2013年末到2014年终建过多个个站：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.intorice.com&quot;&gt;intorice&lt;/a&gt;，2013年使用WP搭建的个人简历站&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.0tmt.com/about&quot;&gt;about&lt;/a&gt;,Copy&lt;a href=&quot;http://iconmoon.com/blog2/&quot; target=&quot;_blank&quot;&gt;JJ Ying&lt;/a&gt;做的个人介绍页&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://0tmt.com/resume/&quot;&gt;resume&lt;/a&gt;,一个极简的个人简历，也放了一些我的视（mei）觉（gong）作品&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://0tmt.com&quot;&gt;0tmt&lt;/a&gt;，个人站（由原先的国外TMT产业媒体站改的，原因？因为英文太烂，国外站得东西翻译起来太吃力）&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://0tmt.com/blog/&quot;&gt;0tmt.blog&lt;/a&gt;,个人博客站，有一些比较羞涩的个人日记（年少不懂事）。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3&gt;设计稿-个人资料动效&lt;/h3&gt;
 

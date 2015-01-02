@@ -4,7 +4,7 @@
  <title>Cellier</title>
  <link href="http://cellier.me/atom.xml" rel="self"/>
  <link href="http://cellier.me/"/>
- <updated>2015-01-02T15:50:29+08:00</updated>
+ <updated>2015-01-02T16:18:35+08:00</updated>
  <id>http://cellier.me</id>
  <author>
    <name>cellier</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>二零一四年的思考</title>
-   <link href="http://cellier.me/2015/12/31/2014things/"/>
-   <updated>2015-12-31T00:00:00+08:00</updated>
-   <id>http://cellier.me/2015/12/31/2014things</id>
+   <link href="http://cellier.me/2014/12/31/2014things/"/>
+   <updated>2014-12-31T00:00:00+08:00</updated>
+   <id>http://cellier.me/2014/12/31/2014things</id>
    <content type="html">&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;在我二十岁之前,受“人类一思考，上帝就发笑”的影响,害怕自己思考起来把上帝给逗死,导致人类没了信仰.于是一直没敢思考.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;!-- more --&gt;
@@ -57,7 +57,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://&quot; target=&quot;_blank&quot;&gt;intorice&lt;/a&gt;，2013年使用WP搭建的个人简历站（已挂没续费）&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.0tmt.com/about&quot;&gt;about&lt;/a&gt;&lt;a href=&quot;http://0tmt.com/about/&quot; target=&quot;_blank&quot;&gt;about&lt;/a&gt;,Copy&lt;a href=&quot;http://iconmoon.com/blog2/&quot; target=&quot;_blank&quot;&gt;JJ Ying&lt;/a&gt;做的个人介绍页&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://0tmt.com/about/&quot; target=&quot;_blank&quot;&gt;about&lt;/a&gt;,Copy&lt;a href=&quot;http://iconmoon.com/blog2/&quot; target=&quot;_blank&quot;&gt;JJ Ying&lt;/a&gt;做的个人介绍页&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://0tmt.com/resume/&quot; target=&quot;_blank&quot;&gt;resume&lt;/a&gt;,一个极简的个人简历，也放了一些我的视（mei）觉（gong）作品&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://0tmt.com&quot; target=&quot;_blank&quot;&gt;0tmt&lt;/a&gt;，个人站（由原先的国外TMT产业媒体站改的，原因？因为英文太烂，国外站得东西翻译起来太吃力）&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://0tmt.com/blog/&quot; target=&quot;_blank&quot;&gt;0tmt.blog&lt;/a&gt;,个人博客站，有一些比较羞涩的个人日记（年少不懂事）。&lt;/p&gt;&lt;/li&gt;

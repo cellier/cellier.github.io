@@ -49,6 +49,8 @@ font-size:1.08rem;
 font-weight: 400;
 }
 
+img { height: auto; width: auto\9; width:100%; }
+
 h1{
 font-family: normal, 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, STKaiti, sans-serif;
 -webkit-font-smoothing:antialiased;

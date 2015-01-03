@@ -35,6 +35,6 @@ title: About
 
 <br><br>
 
-更多关于此网站的搭建，可以看此[教程](https://www.baidu.com)*还未写作*
+更多关于此网站的搭建，可参看[《每个人都应该有一个Jekyll博客》](http://www.cellier.me/2015/01/04/jekyll%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/)
 
 

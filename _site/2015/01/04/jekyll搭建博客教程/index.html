@@ -239,9 +239,9 @@
 <p><br></p>
 
 <ol>
-<li><p><small>提醒：本文将在2015-01-11更新</li>
-<li><p><small>提醒：本文将在2015-01-11更新</li>
-<li><p><small>提醒：本文将在2015-01-11更新</li>
+<li><p><small>提醒：本文将在2015-01-11更新</small></li>
+<li><p><small>提醒：本文将在2015-01-11更新</small></li>
+<li><p><small>提醒：本文将在2015-01-11更新</small></li>
 </ol>
 
 <p><br><br></p>
@@ -254,9 +254,9 @@
 
 <ul>
 <li><a href="http://justcoding.iteye.com/blog/1959737
-" target="_blank">使用Github Pages建独立博客</a></li>
+" target="_blank">使用Github Pages建独立博客</a>*</li>
 <li><a href="http://blog.csdn.net/u012844814/article/details/28869997
-" target="_blank">Windows下运行jeklly,并在本地浏览Bootstrap文档</a></li>
+" target="_blank">Windows下运行jeklly,并在本地浏览Bootstrap文档</a>*</li>
 </ul>
 
 <p><br><br></p>
@@ -267,14 +267,14 @@
 
 <dl>
   <dt><p>解决gem install jekyll 运行无法知道的问题</dt>
-  <dd><p><b>在代码  gem install jekyll    前加   sudo，在代码后加-V可看到安装详情过程（mac x os）</dd>
+  <dd><p><b>在代码  gem install jekyll    前加   sudo，在代码后加-V可看到安装详情过程（mac x os）</b></dd>
 <dt><p>解决gem ruby install 很慢的问题</dt>
-  <dd><p><b>换成<a href="http://ruby.taobao.org/" target="_blank">淘宝镜像源</a></dd>
+  <dd><p><b>换成<a href="http://ruby.taobao.org/" target="_blank">淘宝镜像源</a></b></dd>
   <dt><p>解决报错：Agreeing to the Xcode/iOS license requires admin privileges, please re-run as root via sudo.</dt>
-  <dd><p><b>打开 Xcode 会弹出更新说明，点击同意，安装完就可以了</dd>
+  <dd><p><b>打开 Xcode 会弹出更新说明，点击同意，安装完就可以了</b></dd>
   <dt><p>测试SSH是否正常工作</dt>
   <dd><p><b>参考<a href="http://www.51cto.com/art/200511/12216.htm
-" target="_blank">测试SSH</a></dd>
+" target="_blank">测试SSH</a></b></dd>
 </dl>
 
 <p><br></p>
@@ -285,8 +285,9 @@
 参考<a href="http://blog.javachen.com/2013/08/31/my-jekyll-config/" target="_blank">JavaChen&#39;s Blog</a>和<a href="http://truongtx.me/2013/05/01/jekyll-read-more-feature-without-any-plugin/" target="_blank">Trường TX blog</a>
 <br></p>
 
-<p>最终我的代码综合以上两位的方法,在index.html添加了如下图代码：
-<br><br>
+<p>最终我的代码综合以上两位的方法,在index.html添加了如下图代码：</p>
+
+<p><br><br>
 <img src="http://intorice.qiniudn.com/daima.png" alt="">
 <br></p>
 
@@ -306,10 +307,12 @@
 <p>3,找到仓库里的_config.yml文档，代码编辑器打开，贴入如下代码
 <br></p>
 
-<div class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">comments</span> <span class="o">:</span>
-  <span class="nx">provider</span> <span class="o">:</span> <span class="nx">duoshuo</span>
-  <span class="nx">duoshuo</span> <span class="o">:</span> 
-  <span class="nx">short_name</span> <span class="o">:</span> <span class="err">你的</span><span class="nx">short_name</span></code></pre></div>
+<p><code>
+comments :<br>
+  &nbsp;&nbsp;&nbsp;provider : duoshuo<br>
+ &nbsp;&nbsp;&nbsp; duoshuo : <br>
+  &nbsp;&nbsp;&nbsp;short<em>name : 你的short</em>name
+</code></p>
 
 <p><br>
 - 更多关于多说设置的内容可参考<a href="http://beeder.me/2014/09/08/add-duoshuo-to-jekyllbootstrap/" target="_blank">beeder同学写的</a>以及<a href="http://havee.me/internet/2013-07/add-duoshuo-commemt-system-into-jekyll.html" target="_blank">havee同学写的</a>
@@ -325,19 +328,18 @@
 
 <h6>常用HTML代码：</h6>
 
-<p><br></p>
-
-<div class="highlight"><pre><code class="language-js" data-lang="js"><span class="c1">// 新建标签页打开链接</span>
-
-<span class="o">&lt;</span><span class="nx">a</span> <span class="nx">href</span><span class="o">=</span><span class="s2">&quot;此处填写要跳转的网址&quot;</span> <span class="nx">target</span><span class="o">=</span><span class="s2">&quot;_blank&quot;</span><span class="o">&gt;</span><span class="err">链接文字</span><span class="o">&lt;</span><span class="err">/a&gt;</span>
-
-<span class="c1">// 插入图片：width 设置图片宽度；height 设置图片高度</span>
-
-<span class="o">&lt;</span><span class="nx">img</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&quot;图片路径地址&quot;</span> <span class="nx">width</span><span class="o">=</span><span class="s2">&quot;165&quot;</span> <span class="nx">height</span><span class="o">=</span><span class="s2">&quot;60&quot;</span> <span class="o">/&gt;</span>
-
-<span class="c1">// 插入图片并居中</span>
-
-<span class="o">&lt;</span><span class="nx">div</span> <span class="nx">align</span><span class="o">=</span><span class="nx">center</span><span class="o">&gt;&lt;</span><span class="nx">img</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&quot;图片网址&quot;</span> <span class="nx">width</span><span class="o">=</span><span class="s2">&quot;500&quot;</span> <span class="o">/&gt;&lt;</span><span class="err">/div&gt;</span></code></pre></div>
+<p><code>
+// 新建标签页打开链接<br>
+<code>&lt;a href=&quot;此处填写要跳转的网址&quot; target=&quot;_blank&quot;&gt;链接文字&lt;/a&gt;</code>
+</code><br><br>
+<code>
+// 插入图片：width 设置图片宽度；height 设置图片高度<br>
+<code>&lt;img src=&quot;图片路径地址&quot; width=&quot;165&quot; height=&quot;60&quot; /&gt;</code>
+</code><br><br>
+<code>
+// 插入图片并居中<br>
+<code>&lt;div align=center&gt;&lt;img src=&quot;图片网址&quot; width=&quot;500&quot; /&gt;&lt;/div&gt;</code><br>
+</code></p>
 
 <p><br></p>
 
@@ -356,9 +358,6 @@
 <li><p><u>下划线</u>还可使用<code>&lt;u&gt;</code></li>
 <li><p>特殊符号<code>&amp;nbsp;</code>表示&nbsp;空格</li>
 <li><p><big>大字体</big>使用<code>&lt;big&gt;</code>，<small>小字体</small>使用<code>&lt;small&gt;</code></li>
-<li><p>高亮文本使用<code>
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;err&quot;&gt;</code>、<code>&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-</code></li>
 </ul>
 
 <p><br><br></p>

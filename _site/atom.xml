@@ -4,7 +4,7 @@
  <title>Cellier</title>
  <link href="http://cellier.me/atom.xml" rel="self"/>
  <link href="http://cellier.me/"/>
- <updated>2015-01-04T01:01:29+08:00</updated>
+ <updated>2015-01-04T02:13:43+08:00</updated>
  <id>http://cellier.me</id>
  <author>
    <name>cellier</name>
@@ -134,9 +134,9 @@
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;small&gt;提醒：本文将在2015-01-11更新&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;small&gt;提醒：本文将在2015-01-11更新&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;small&gt;提醒：本文将在2015-01-11更新&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;small&gt;提醒：本文将在2015-01-11更新&lt;/small&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;small&gt;提醒：本文将在2015-01-11更新&lt;/small&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;small&gt;提醒：本文将在2015-01-11更新&lt;/small&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
@@ -149,9 +149,9 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://justcoding.iteye.com/blog/1959737
-&quot; target=&quot;_blank&quot;&gt;使用Github Pages建独立博客&lt;/a&gt;&lt;/li&gt;
+&quot; target=&quot;_blank&quot;&gt;使用Github Pages建独立博客&lt;/a&gt;*&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/u012844814/article/details/28869997
-&quot; target=&quot;_blank&quot;&gt;Windows下运行jeklly,并在本地浏览Bootstrap文档&lt;/a&gt;&lt;/li&gt;
+&quot; target=&quot;_blank&quot;&gt;Windows下运行jeklly,并在本地浏览Bootstrap文档&lt;/a&gt;*&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
@@ -162,14 +162,14 @@
 
 &lt;dl&gt;
   &lt;dt&gt;&lt;p&gt;解决gem install jekyll 运行无法知道的问题&lt;/dt&gt;
-  &lt;dd&gt;&lt;p&gt;&lt;b&gt;在代码  gem install jekyll    前加   sudo，在代码后加-V可看到安装详情过程（mac x os）&lt;/dd&gt;
+  &lt;dd&gt;&lt;p&gt;&lt;b&gt;在代码  gem install jekyll    前加   sudo，在代码后加-V可看到安装详情过程（mac x os）&lt;/b&gt;&lt;/dd&gt;
 &lt;dt&gt;&lt;p&gt;解决gem ruby install 很慢的问题&lt;/dt&gt;
-  &lt;dd&gt;&lt;p&gt;&lt;b&gt;换成&lt;a href=&quot;http://ruby.taobao.org/&quot; target=&quot;_blank&quot;&gt;淘宝镜像源&lt;/a&gt;&lt;/dd&gt;
+  &lt;dd&gt;&lt;p&gt;&lt;b&gt;换成&lt;a href=&quot;http://ruby.taobao.org/&quot; target=&quot;_blank&quot;&gt;淘宝镜像源&lt;/a&gt;&lt;/b&gt;&lt;/dd&gt;
   &lt;dt&gt;&lt;p&gt;解决报错：Agreeing to the Xcode/iOS license requires admin privileges, please re-run as root via sudo.&lt;/dt&gt;
-  &lt;dd&gt;&lt;p&gt;&lt;b&gt;打开 Xcode 会弹出更新说明，点击同意，安装完就可以了&lt;/dd&gt;
+  &lt;dd&gt;&lt;p&gt;&lt;b&gt;打开 Xcode 会弹出更新说明，点击同意，安装完就可以了&lt;/b&gt;&lt;/dd&gt;
   &lt;dt&gt;&lt;p&gt;测试SSH是否正常工作&lt;/dt&gt;
   &lt;dd&gt;&lt;p&gt;&lt;b&gt;参考&lt;a href=&quot;http://www.51cto.com/art/200511/12216.htm
-&quot; target=&quot;_blank&quot;&gt;测试SSH&lt;/a&gt;&lt;/dd&gt;
+&quot; target=&quot;_blank&quot;&gt;测试SSH&lt;/a&gt;&lt;/b&gt;&lt;/dd&gt;
 &lt;/dl&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
@@ -180,8 +180,9 @@
 参考&lt;a href=&quot;http://blog.javachen.com/2013/08/31/my-jekyll-config/&quot; target=&quot;_blank&quot;&gt;JavaChen&amp;#39;s Blog&lt;/a&gt;和&lt;a href=&quot;http://truongtx.me/2013/05/01/jekyll-read-more-feature-without-any-plugin/&quot; target=&quot;_blank&quot;&gt;Trường TX blog&lt;/a&gt;
 &lt;br&gt;&lt;/p&gt;
 
-&lt;p&gt;最终我的代码综合以上两位的方法,在index.html添加了如下图代码：
-&lt;br&gt;&lt;br&gt;
+&lt;p&gt;最终我的代码综合以上两位的方法,在index.html添加了如下图代码：&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;
 &lt;img src=&quot;http://intorice.qiniudn.com/daima.png&quot; alt=&quot;&quot;&gt;
 &lt;br&gt;&lt;/p&gt;
 
@@ -201,10 +202,12 @@
 &lt;p&gt;3,找到仓库里的_config.yml文档，代码编辑器打开，贴入如下代码
 &lt;br&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;nx&quot;&gt;comments&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;provider&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;duoshuo&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;duoshuo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; 
-  &lt;span class=&quot;nx&quot;&gt;short_name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;你的&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;short_name&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code&gt;
+comments :&lt;br&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;provider : duoshuo&lt;br&gt;
+ &amp;nbsp;&amp;nbsp;&amp;nbsp; duoshuo : &lt;br&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;short&lt;em&gt;name : 你的short&lt;/em&gt;name
+&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;
 - 更多关于多说设置的内容可参考&lt;a href=&quot;http://beeder.me/2014/09/08/add-duoshuo-to-jekyllbootstrap/&quot; target=&quot;_blank&quot;&gt;beeder同学写的&lt;/a&gt;以及&lt;a href=&quot;http://havee.me/internet/2013-07/add-duoshuo-commemt-system-into-jekyll.html&quot; target=&quot;_blank&quot;&gt;havee同学写的&lt;/a&gt;
@@ -220,19 +223,18 @@
 
 &lt;h6&gt;常用HTML代码：&lt;/h6&gt;
 
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// 新建标签页打开链接&lt;/span&gt;
-
-&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;此处填写要跳转的网址&amp;quot;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;_blank&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;链接文字&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/a&amp;gt;&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// 插入图片：width 设置图片宽度；height 设置图片高度&lt;/span&gt;
-
-&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;图片路径地址&amp;quot;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;165&amp;quot;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;60&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&amp;gt;&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// 插入图片并居中&lt;/span&gt;
-
-&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;align&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;center&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;图片网址&amp;quot;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;500&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code&gt;
+// 新建标签页打开链接&lt;br&gt;
+&lt;code&gt;&amp;lt;a href=&amp;quot;此处填写要跳转的网址&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;链接文字&amp;lt;/a&amp;gt;&lt;/code&gt;
+&lt;/code&gt;&lt;br&gt;&lt;br&gt;
+&lt;code&gt;
+// 插入图片：width 设置图片宽度；height 设置图片高度&lt;br&gt;
+&lt;code&gt;&amp;lt;img src=&amp;quot;图片路径地址&amp;quot; width=&amp;quot;165&amp;quot; height=&amp;quot;60&amp;quot; /&amp;gt;&lt;/code&gt;
+&lt;/code&gt;&lt;br&gt;&lt;br&gt;
+&lt;code&gt;
+// 插入图片并居中&lt;br&gt;
+&lt;code&gt;&amp;lt;div align=center&amp;gt;&amp;lt;img src=&amp;quot;图片网址&amp;quot; width=&amp;quot;500&amp;quot; /&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt;&lt;br&gt;
+&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
@@ -251,9 +253,6 @@
 &lt;li&gt;&lt;p&gt;&lt;u&gt;下划线&lt;/u&gt;还可使用&lt;code&gt;&amp;lt;u&amp;gt;&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;特殊符号&lt;code&gt;&amp;amp;nbsp;&lt;/code&gt;表示&amp;nbsp;空格&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;big&gt;大字体&lt;/big&gt;使用&lt;code&gt;&amp;lt;big&amp;gt;&lt;/code&gt;，&lt;small&gt;小字体&lt;/small&gt;使用&lt;code&gt;&amp;lt;small&amp;gt;&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;高亮文本使用&lt;code&gt;
-&amp;lt;div class=&amp;quot;highlight&amp;quot;&amp;gt;&amp;lt;pre&amp;gt;&amp;lt;code class=&amp;quot;language-js&amp;quot; data-lang=&amp;quot;js&amp;quot;&amp;gt;&amp;lt;span class=&amp;quot;err&amp;quot;&amp;gt;&lt;/code&gt;、&lt;code&gt;&amp;lt;/span&amp;gt;&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;

@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      每个人都应该有一个Jekyll博客 &middot; Cellier
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <!--link href='http://fonts.useso.com/css?family=Noto+Sans:300,500,300italic&subset=latin,greek-ext' rel='stylesheet' type='text/css'-->
+  <!--
+  <link rel="stylesheet" href="http://fonts.useso.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+  -->
+
+  <!--link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400" -->
+
+  
+
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  
+ <!-- CNZZ Analytics -->
+ <div style="display:none">
+  <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254014543'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254014543' type='text/javascript'%3E%3C/script%3E"));</script>
+  </div>
+
+  <!-- Google Analytics -->
+  <!--<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-146052-15', 'getpoole.com');
+    ga('send', 'pageview');
+  </script>-->
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>『he looks like a dog so』 『because he is a PM』</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/about/">About</a>
+        
+      
+    
+      
+    
+      
+    
+      
+        
+      
+    
+    <a class="sidebar-nav-item" href="Mailto:cellier@mail.com">Email</a>
+
+
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2015. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+
+      <div class="masthead">
+        <div class="container">
+        <!--
+          <h3 class="masthead-title">
+            <a href="/" title="Home">Cellier</a></h3>
+            <h4 class="masthead-title"><small>我们从未念及大爆炸前同挤奇点的友谊</small></h4> 
+          -->
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+  <h1 class="post-title">每个人都应该有一个Jekyll博客</h1>
+  <span class="post-date">04 Jan 2015</span>
+  <p><img src="http://intorice.qiniudn.com/jianzhan.png" alt="建站教程"></p>
+
+<h6><div align=middle>免费使用Jekyll+Github Page搭建博客入门攻略</div></h6>
+
+<!-- more -->
+
+<hr>
+
+<div class="message">
+<small>因为自己爱捣（zhuang）鼓（bi），从博客<a href="http://hi.baidu.com/xctrun" target="_blank">百度空间</a>到后来轻博客： <a href="http://www.posterous.com/" target="_blank">Posterous</a>、Tumblr、点点、推他、Lofter...再到自己搭建wordpress，写一些简单的静态html页面...我可真是在“玩”博客，而非写博客。直到有一天认识了Jekyll，被其极简写作理念所拯救......</small>
+</div>
+
+<p><br></p>
+
+<h4>阅前说明</h4>
+
+<p>此文主要记录了我自己在建此站点过程中遇见的一些问题和解决方案，完全是在自身能力层级范围内进行描述，有误之处望请包涵指正。</p>
+
+<p><br>
+本教程适用对象包括但不限于：</p>
+
+<ul>
+<li><p>对建站、HTML、CSS等词汇完全免疫的人</li>
+<li><p>会修改网页图片链接的入门小白设计师</li>
+</ul>
+
+<p><br><br></p>
+
+<h4>工具准备<br></h4>
+
+<ul>
+<li><p>网页代码编辑器：Dreamweaver/<a href="http://sublimetext.com" target="_blank">Sublime Text</a></p></li>
+<li><p><a href="http://www.oschina.net/news/50322/markdown-editors-and-tools" target="_blank">Markdown 编辑器</a>（本人用的<a href=" http://realmacsoftware.com/typed" target="_blank">Typed</a>）</li>
+<li><p><a href="https://windows.github.com/" target="_blank">Github客户端</a></li>
+<li><p><abbr title="本文涉及到本地安装Jekyll进行预览，所以使用到OS X系统的终端">Terminal(终端)</abbr> </li>
+<li><p>VPN工具，便于搜索更多资料（本人使用<a href="https://ybb117.com/" target="_blank">鱼摆摆</a>）</li>
+<li><p>TXT/<a href="https://www.yinxiang.com/" target="_blank">印象笔记</a>，用于记录相关代码或者教程</li>
+</ul>
+
+<p><br><br></p>
+
+<h4>第0步：买域名</h4>
+
+<p>懂的同学自行跳过此步，买域名为什么要放到前面来做掉？是为了防止有的同学弄到一半嫌麻烦，就没精神再捣鼓下去，而买了域名，钱都往里砸了，极有可能帮助剧情往下继续发展，有助于个人身心健康....
+<br><br>
+域名可在<a href="https://www.godaddy.com/" target="_blank">Go Daddy</a>上使用支付宝购买，至于价格，相信我，你买的越贵你就越接近建站成功的时刻。</p>
+
+<p><em>点此查看<a href="http://jingyan.baidu.com/article/fec4bce20d364bf2618d8b39.html" target="_blank">怎样购买GoDaddy域名</a></em>
+<br></p>
+
+<p>英文不好？那就万网、美联互橙、新网随便挑一个国内域名服务商买吧。
+<br>
+关于域名这块，还需要域名解析的预备知识，你可先<a href="http://www.xindingyue.com/new-godaddy-cname.html" target="_blank">收藏这个</a>
+<br><br></p>
+
+<hr>
+
+<h4><div align=center><b>那么接下来，让我们拿起工具开始吧！</b></div></h4>
+
+<p><img src="http://intorice.qiniudn.com/heisencat.png" alt="">
+<div align=right><p><cite>&mdash; 图片来自<a href="https://github.com/jonrohan" target="_blank">@jonrohan</a></cite></div></p>
+
+<p><br><br></p>
+
+<h4>第1步：注册github并搭建Page</h4>
+
+<p><br>
+<p>1,<a href="https://github.com/" target="_blank">注册Github</a>
+<br><br>
+2,新建一个<abbr title="github上面的项目储存单位"> Repository(仓库)</abbr>
+<br>
+<small>如图，点击<code>+ New Repository</code></small>
+<img src="http://intorice.qiniudn.com/$%7D%60Q(%7DT)8K_HL4CADIP4$%7E9.jpg" alt="">
+<br>
+3,输入相关配置，注意，在网址栏一定要输入<code>username.github.io</code>，username指的是你注册时的用户名
+<br>
+<img src="http://intorice.qiniudn.com/dhkasdkldsajf.jpg" alt="">
+<br>
+4,新建好后，进入项目，点击右下角<code>Settings</code>（设置）
+<br>
+<img src="http://intorice.qiniudn.com/fdksahfladf.jpg" alt="">
+<br>
+5,点击 <code>Automatic page generator</code>（页面自动生成器）
+<br>
+<img src="http://intorice.qiniudn.com/fhalsjkfhka.jpg" alt="">
+<br>
+6,选择一个你喜欢的模板，点击生成...其实到这一步，我们的网站已经生成了，你可以通过自己的域名<code>username.github.io</code>进行访问，只是目前，我们还没有学会对网站上的内容进行管理。</p>
+
+<p><br><br><br></p>
+
+<h4>第2步：解析自己的域名到<code>username.github.io</code></h4>
+
+<p><br>
+<br>
+参考我们在准备阶段收藏的网页，在域名服务商那里将域名使用CNAME解析到自己的<code>此处填写你的用户名.github.io</code>。
+<br>
+接着，我们要进行github端的配置，进入我们所建的Page仓库主页，找到右下角的<code>Clone in Desktop</code>，将项目克隆到本地。对了，你下好了github的客户端了么？还没有？那赶紧下了，然后登陆，这就要用到它的同步功能了（其实用github客户端同步文档对Geek而言是一件不太光彩的事，但暂时我们先忍忍吧，先让自己看到一点效果，得到一点成就感，鼓舞着自己走下去）
+我们新建一个文档，随便什么格式，然后在里面写入自己买的域名（注意：如果是CNAME解析，此处域名前需加上“www.”），然后将文档重命名成<code>CNAME</code>,不要加任何文件格式后缀。
+<br>
+然后此CNAME文档拖到我们克隆到本地的仓库文件夹，使用github客户端进行同步上传。过不了多久，你就可以在浏览器中打进你的域名，你会惊奇地发现，它已经自动跳转到你在github上设置的默认网页了！</p>
+
+<p><br><br></p>
+
+<h4>第3步：本地安装git，并配置SSH</h4>
+
+<p><br></p>
+
+<blockquote>
+<p>为了下一步铺垫</p>
+</blockquote>
+
+<p>暂时先参考<a href="http://jingyan.baidu.com/article/72ee561ab93d2be16138dfed.html" target="_blank">《mac安装最新版本的git》</a>和<a href="http://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+" target="_blank">《安装git》</a></p>
+
+<p><br></p>
+
+<ol>
+<li><p><small>提醒：本文将在2015-01-11更新</li>
+<li><p><small>提醒：本文将在2015-01-11更新</li>
+<li><p><small>提醒：本文将在2015-01-11更新</li>
+</ol>
+
+<p><br><br></p>
+
+<h4>第4步：在本地安装Jekyll进行项目预览</h4>
+
+<p><br><br></p>
+
+<p>（还未写）暂时参考：<br></p>
+
+<ul>
+<li><a href="http://justcoding.iteye.com/blog/1959737
+" target="_blank">使用Github Pages建独立博客</a></li>
+<li><a href="http://blog.csdn.net/u012844814/article/details/28869997
+" target="_blank">Windows下运行jeklly,并在本地浏览Bootstrap文档</a></li>
+</ul>
+
+<p><br><br></p>
+
+<h3>特殊问题及解决方案</h3>
+
+<p><br></p>
+
+<dl>
+  <dt><p>解决gem install jekyll 运行无法知道的问题</dt>
+  <dd><p><b>在代码  gem install jekyll    前加   sudo，在代码后加-V可看到安装详情过程（mac x os）</dd>
+<dt><p>解决gem ruby install 很慢的问题</dt>
+  <dd><p><b>换成<a href="http://ruby.taobao.org/" target="_blank">淘宝镜像源</a></dd>
+  <dt><p>解决报错：Agreeing to the Xcode/iOS license requires admin privileges, please re-run as root via sudo.</dt>
+  <dd><p><b>打开 Xcode 会弹出更新说明，点击同意，安装完就可以了</dd>
+  <dt><p>测试SSH是否正常工作</dt>
+  <dd><p><b>参考<a href="http://www.51cto.com/art/200511/12216.htm
+" target="_blank">测试SSH</a></dd>
+</dl>
+
+<p><br></p>
+
+<h3>添加ReadMore功能（文章摘要功能）</h3>
+
+<p><br>
+参考<a href="http://blog.javachen.com/2013/08/31/my-jekyll-config/" target="_blank">JavaChen&#39;s Blog</a>和<a href="http://truongtx.me/2013/05/01/jekyll-read-more-feature-without-any-plugin/" target="_blank">Trường TX blog</a>
+<br></p>
+
+<p>最终我的代码综合以上两位的方法,在index.html添加了如下图代码：
+<br><br>
+<img src="http://intorice.qiniudn.com/daima.png" alt="">
+<br></p>
+
+<p><br><br></p>
+
+<hr>
+
+<h3>给文章页面添加多说评论</h3>
+
+<p><p>1,注册<a href="http://duoshuo.com/" target="_blank">多说</a>账号，得到short_name （如图，cellier-me就是我的shortname）
+<br><br>
+<img src="http://intorice.qiniudn.com/shortname.png" alt=""></p>
+
+<p>2,将生成的多说代码复制，找到仓库的_layouts文件夹下的post.html文档，使用代码编辑器打开，将多说代码粘贴到<code>{ { content } },&lt;/div&gt;</code>的下面，对了，请养成随时Ctrl+S进行文档编辑保存的习惯
+<br><br></p>
+
+<p>3,找到仓库里的_config.yml文档，代码编辑器打开，贴入如下代码
+<br></p>
+
+<div class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">comments</span> <span class="o">:</span>
+  <span class="nx">provider</span> <span class="o">:</span> <span class="nx">duoshuo</span>
+  <span class="nx">duoshuo</span> <span class="o">:</span> 
+  <span class="nx">short_name</span> <span class="o">:</span> <span class="err">你的</span><span class="nx">short_name</span></code></pre></div>
+
+<p><br>
+- 更多关于多说设置的内容可参考<a href="http://beeder.me/2014/09/08/add-duoshuo-to-jekyllbootstrap/" target="_blank">beeder同学写的</a>以及<a href="http://havee.me/internet/2013-07/add-duoshuo-commemt-system-into-jekyll.html" target="_blank">havee同学写的</a>
+<br><br>
+- 而关于多说的CSS样式设置可参考<a href="http://www.mmuuii360.com/duoshuo-css.html" target="_blank">多说评论框css样式表自定义</a>
+<br><br>
+- 样式代码贴入多说官网-个人-网站设置-基本设置里即可（下图位置）
+<br><br>
+<img src="http://intorice.qiniudn.com/weqrqwr.png" alt="">
+<br><br></p>
+
+<hr>
+
+<h6>常用HTML代码：</h6>
+
+<p><br></p>
+
+<div class="highlight"><pre><code class="language-js" data-lang="js"><span class="c1">// 新建标签页打开链接</span>
+
+<span class="o">&lt;</span><span class="nx">a</span> <span class="nx">href</span><span class="o">=</span><span class="s2">&quot;此处填写要跳转的网址&quot;</span> <span class="nx">target</span><span class="o">=</span><span class="s2">&quot;_blank&quot;</span><span class="o">&gt;</span><span class="err">链接文字</span><span class="o">&lt;</span><span class="err">/a&gt;</span>
+
+<span class="c1">// 插入图片：width 设置图片宽度；height 设置图片高度</span>
+
+<span class="o">&lt;</span><span class="nx">img</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&quot;图片路径地址&quot;</span> <span class="nx">width</span><span class="o">=</span><span class="s2">&quot;165&quot;</span> <span class="nx">height</span><span class="o">=</span><span class="s2">&quot;60&quot;</span> <span class="o">/&gt;</span>
+
+<span class="c1">// 插入图片并居中</span>
+
+<span class="o">&lt;</span><span class="nx">div</span> <span class="nx">align</span><span class="o">=</span><span class="nx">center</span><span class="o">&gt;&lt;</span><span class="nx">img</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&quot;图片网址&quot;</span> <span class="nx">width</span><span class="o">=</span><span class="s2">&quot;500&quot;</span> <span class="o">/&gt;&lt;</span><span class="err">/div&gt;</span></code></pre></div>
+
+<p><br></p>
+
+<h6>常用HTML标签</h6>
+
+<p><br></p>
+
+<ul>
+<li><p><strong>加粗字体</strong>, 使用 <code>&lt;strong&gt;</code></li>
+<li><p><em>斜体</em>, 使用 <code>&lt;em&gt;</code></li>
+<li><p>标注, 像 <abbr title="一种超文本标记语言">HTML</abbr> 使用的是标签<code>&lt;abbr&gt;</code>, 加上 <code>标注标题</code> 来阐述被标注对象</li>
+<li><p>引文, 像 <cite>&mdash; 鲁迅</cite>, 使用 <code>&lt;cite&gt;</code></li>
+<li><p><del>删除线</del> 使用标签 <code>&lt;del&gt;</code> 而<ins>下滑线</ins> 则使用 <code>&lt;ins&gt;</code></li>
+<li><p>上标字 <sup>2B</sup> 使用 <code>&lt;sup&gt;</code> 而下标字 <sub>还是2B</sub>则用<code>&lt;sub&gt;</code></li>
+<li><p><tt>打字机体</tt>使用<code>&lt;tt&gt;</code></li>
+<li><p><u>下划线</u>还可使用<code>&lt;u&gt;</code></li>
+<li><p>特殊符号<code>&amp;nbsp;</code>表示&nbsp;空格</li>
+<li><p><big>大字体</big>使用<code>&lt;big&gt;</code>，<small>小字体</small>使用<code>&lt;small&gt;</code></li>
+<li><p>高亮文本使用<code>
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;err&quot;&gt;</code>、<code>&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+</code></li>
+</ul>
+
+<p><br><br></p>
+
+<hr>
+
+<p><b>最后，我想说的是：</b></p>
+
+<blockquote>
+<p>“没有十全十美的教程，如同不存在彻头彻尾的绝望”（改自村上春树语）</p>
+</blockquote>
+
+<p>重要的是保持住一颗捣腾不安的心以及对知识的渴望与<a href="https://www.baidu.com" target="_blank">找寻</a>.....</p>
+
+</div>
+
+
+<!--
+<hr>
+<div class="copyright">
+<p><small><small>from:</small><a href='/2015/01/04/jekyll%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/'><small>cellier's blog</small></small></a></p>
+</div>
+-->
+
+<!-- 多说评论框 start -->   
+<div class="ds-thread" data-thread-key="/2015/01/04/jekyll搭建博客教程" data-title="每个人都应该有一个Jekyll博客" data-url="cellier.me/2015/01/04/jekyll%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"> 
+</div> 
+<!-- 多说评论框 end --> 
+<!-- 多说公共JS代码 start (一个网页只需插入一次) --> 
+<script type="text/javascript"> var duoshuoQuery = {short_name:"cellier-me"};         (function() {                 var ds = document.createElement('script');                 ds.type = 'text/javascript';ds.async = true;                 ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';                 ds.charset = 'UTF-8';                 (document.getElementsByTagName('head')[0]                  || document.getElementsByTagName('body')[0]).appendChild(ds);         })();         
+</script> 
+<!-- 多说公共JS代码 end -->
+
+
+
+<div class="related">
+  <span><small>相关文章</small></span>
+  <ul class="related-posts">
+    
+      <li>
+        <h7>
+          <a href="/2015/01/02/%E8%80%83%E6%8B%89%E7%A4%BE%E5%8C%BA%E7%9A%842015%E5%B9%B4/">
+            <small>考拉社区的2015年</small>
+
+            <!--02 Jan 2015-->
+          </a>
+        </h7>
+      </li>
+    
+      <li>
+        <h7>
+          <a href="/2014/12/31/2014things/">
+            <small>二零一四年的思考</small>
+
+            <!--31 Dec 2014-->
+          </a>
+        </h7>
+      </li>
+    
+  </ul>
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+  </body>
+</html>

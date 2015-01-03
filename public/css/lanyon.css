@@ -49,13 +49,21 @@ font-size:1.08rem;
 font-weight: 400;
 }
 
+p{
+font-family: normal, 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, STKaiti, sans-serif;
+-webkit-font-smoothing:antialiased;
+font-size:20px;
+font-size:.88rem;
+font-weight: 400;
+}
+
 img { height: auto; width: auto\9; width:100%; }
 
 h1{
 font-family: normal, 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, STKaiti, sans-serif;
 -webkit-font-smoothing:antialiased;
 font-size:22px;
-font-size:1.96rem;
+font-size:1.88rem;
 font-weight: 400;
 letter-spacing: -0.01rem;
 }
@@ -63,7 +71,7 @@ h2{
 font-family: normal, 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, STKaiti, sans-serif;
 -webkit-font-smoothing:antialiased;
 font-size:22px;
-font-size:1.78rem;
+font-size:1.70rem;
 font-weight: 400;
 letter-spacing: -0.01rem;
 }
@@ -71,7 +79,7 @@ h3{
 font-family: normal, 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, STKaiti, sans-serif;
 -webkit-font-smoothing:antialiased;
 font-size:22px;
-font-size:1.59rem;
+font-size:1.56rem;
 font-weight: 400;
 letter-spacing: -0.01rem;
 }
@@ -79,7 +87,7 @@ h4{
 font-family: normal, 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, STKaiti, sans-serif;
 -webkit-font-smoothing:antialiased;
 font-size:22px;
-font-size:1.38rem;
+font-size:1.40rem;
 font-weight: 400;
 letter-spacing: -0.01rem;
 }
@@ -87,7 +95,7 @@ h5{
 font-family: normal, 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, STKaiti, sans-serif;
 -webkit-font-smoothing:antialiased;
 font-size:22px;
-font-size:1.26rem;
+font-size:1.24rem;
 font-weight: 400;
 letter-spacing: -0.01rem;
 }
@@ -95,7 +103,7 @@ h6{
 font-family: normal, 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, STKaiti, sans-serif;
 -webkit-font-smoothing:antialiased;
 font-size:22px;
-font-size:1.17rem;
+font-size:1.12rem;
 font-weight: 400;
 letter-spacing: -0.01rem;
 }

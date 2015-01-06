@@ -4,7 +4,7 @@
  <title>Cellier</title>
  <link href="http://cellier.me/atom.xml" rel="self"/>
  <link href="http://cellier.me/"/>
- <updated>2015-01-06T10:57:06+08:00</updated>
+ <updated>2015-01-06T18:29:50+08:00</updated>
  <id>http://cellier.me</id>
  <author>
    <name>cellier</name>
@@ -215,9 +215,11 @@
 
 &lt;p&gt;最终我的代码综合以上两位的方法,在index.html添加了如下图代码：&lt;/p&gt;
 
-&lt;p&gt;&lt;br&gt;&lt;br&gt;
-&lt;img src=&quot;http://intorice.qiniudn.com/daima.png&quot; alt=&quot;&quot;&gt;
-&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://intorice.qiniudn.com/daima.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 

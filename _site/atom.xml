@@ -4,7 +4,7 @@
  <title>Cellier</title>
  <link href="http://cellier.me/atom.xml" rel="self"/>
  <link href="http://cellier.me/"/>
- <updated>2015-01-06T10:16:40+08:00</updated>
+ <updated>2015-01-06T10:57:06+08:00</updated>
  <id>http://cellier.me</id>
  <author>
    <name>cellier</name>
@@ -86,7 +86,7 @@
 &lt;p&gt;&lt;br&gt;
 &lt;p&gt;1,&lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot;&gt;注册Github&lt;/a&gt;
 &lt;br&gt;&lt;br&gt;
-2,新建一个&lt;abbr title=&quot;github上面的项目储存单位&quot;&gt; Repository(仓库)&lt;/abbr&gt;
+2,新建一个&lt;abbr title=&quot;Repository-中文叫做*版本库*或者*仓库*，相当于是一个目录，这个目录里面的每个文件的修改、删除，Github都能进行管理、跟踪以及复原&quot;&gt; Repository(仓库)&lt;/abbr&gt;
 &lt;br&gt;
 &lt;small&gt;如图，点击&lt;code&gt;+ New Repository&lt;/code&gt;&lt;/small&gt;
 &lt;img src=&quot;http://7d9kkp.com1.z0.glb.clouddn.com/$%7D%60Q(%7DT)8K_HL4CADIP4$%7E9.jpg&quot; alt=&quot;&quot;&gt;
@@ -150,34 +150,35 @@
 &lt;li&gt;&lt;p&gt;运行Xcode，找到“Xcode”菜单-&amp;gt;“Preferences”，再“Downloads”标签，点击“Command Line Tools”，进行Install。因为Xcode其实默认集成了Git，只是没有安装。&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;更多可参考&lt;a href=&quot;http://jingyan.baidu.com/article/72ee561ab93d2be16138dfed.html&quot; target=&quot;_blank&quot;&gt;《mac安装最新版本的git》&lt;/a&gt;和&lt;a href=&quot;http://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-&quot; target=&quot;_blank&quot;&gt;《安装git》&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+关于git安装的更多知识可参考&lt;a href=&quot;http://jingyan.baidu.com/article/72ee561ab93d2be16138dfed.html&quot; target=&quot;_blank&quot;&gt;《mac安装最新版本的git》&lt;/a&gt;和&lt;a href=&quot;http://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+&quot; target=&quot;_blank&quot;&gt;《安装git》&lt;/a&gt;.&lt;br&gt;
+要是你想学习更多关于git的知识，那就去看&lt;a href=&quot;http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000&quot; target=&quot;_blank&quot;&gt;大而全的Git教程&lt;/a&gt;.
+&lt;br&gt;&lt;/p&gt;
 
-&lt;p&gt;想学习更多关于git的知识，那就去看&lt;a href=&quot;http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000&quot; target=&quot;_blank&quot;&gt;大而全的Git教程&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;small&gt;提醒：本文将在2015-01-11更新&lt;/small&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;small&gt;提醒：本文将在2015-01-11更新&lt;/small&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;一些基本的git命令：&lt;br&gt;
-```javascript
-//要更新你的本地仓库至最新改动，执行:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;git pull&lt;/code&gt;
-//
-```&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;b&gt;一些基本的git命令：&lt;/b&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;c1&quot;&gt;//创建一个仓库&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;cellier&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;cellier&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;pwd&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Users&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;cellier&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;username&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;io&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//通过git init命令把这个目录变成Git可以管理的仓库&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;init&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Initialized&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;empty&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Git&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;repository&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/Users/cellier/username.github.io /.git&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//要更新你的本地仓库至最新改动，执行:&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;pull&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;我们原先不是将github上的库clone到本地了吗，这个时候就需要使用&lt;code&gt;git init&lt;/code&gt;命令将这个文件夹目录设置为本地git可以管理的仓库。&lt;br&gt;
+关于ssh链接github可参考&lt;a href=&quot;http://www.xuanfengge.com/using-ssh-key-link-github-photo-tour.html&quot; target=&quot;_blank&quot;&gt;使用SSH密钥连接Github【图文教程】&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;h4&gt;第4步：在本地安装Jekyll进行项目预览&lt;/h4&gt;
 
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;（还未写）暂时参考：&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;
+可参考下面两篇&lt;br&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://justcoding.iteye.com/blog/1959737

@@ -28,12 +28,12 @@ layout: default
 
 
 <div class="related">
-  <span><small>相关文章</small></span>
+  <span><small>其它文章</small></span>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
       <li>
         <h7>
-          <a href="{{ post.url }}">
+          <a href="{{ post.url }}" target="_self">
             <small>{{ post.title }}</small>
 
             <!--{{ post.date | date_to_string }}-->

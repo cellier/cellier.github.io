@@ -4,7 +4,7 @@
  <title>Cellier</title>
  <link href="http://cellier.me/atom.xml" rel="self"/>
  <link href="http://cellier.me/"/>
- <updated>2015-01-21T13:11:17+08:00</updated>
+ <updated>2015-01-26T00:00:06+08:00</updated>
  <id>http://cellier.me</id>
  <author>
    <name>cellier</name>
@@ -13,18 +13,138 @@
 
  
  <entry>
-   <title>高清大图网站</title>
-   <link href="http://cellier.me/2015/01/20/pic_resouce_by_cellier/"/>
-   <updated>2015-01-20T00:00:00+08:00</updated>
-   <id>http://cellier.me/2015/01/20/pic_resouce_by_cellier</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://tmtphoto.qiniudn.com/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt; 下面是个人常用的一些图片素材网站，不定期更新。
+   <title>产品设计师的自我修养</title>
+   <link href="http://cellier.me/2015/01/25/for_product_designer/"/>
+   <updated>2015-01-25T00:00:00+08:00</updated>
+   <id>http://cellier.me/2015/01/25/for_product_designer</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://7d9kkp.com1.z0.glb.clouddn.com/0049_Untitled_2010_hires-copy.jpg&quot; alt=&quot;&quot;&gt;
+&lt;div align=right&gt;&lt;p&gt;&lt;cite&gt;&amp;mdash; 图片来自&lt;a href=&quot;http://www.moonassi.com&quot; target=&quot;_blank&quot;&gt;@moonassi&lt;/a&gt;&lt;/cite&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt; 概念里大部分产品设计师会涵盖传统互联网中 PM、UE、UI 这三个角色，有的甚至是：产品经理（拥有产品素养）+美工（拥有视觉设计能力）+会套用框架的初级码农，简直分分钟可以自己创业圈钱，迎娶白富美，走向人生巅峰...
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;!-- more --&gt;
 
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;往往某些产品设计师各方面能力都有，所以不适合在公司一个萝卜一个坑的制度下工作，而更多选择了工作室的模式，或者干脆freelancer或者自己创业。&lt;/p&gt;
 
-&lt;h4&gt;&lt;div align=middle&gt;&lt;a href=&quot;https://500px.com/&quot;&gt;最出色的摄影社区 500px&lt;/a&gt;&lt;/div&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3&gt;基本素能&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;英文要好：免不了要在例如medium、producthunt、Quora等英文网站学习&lt;/li&gt;
+&lt;li&gt;搜索能力:硬盘500G显示你的搜寻能力&lt;/li&gt;
+&lt;li&gt;持续学习钻研能力&lt;/li&gt;
+&lt;li&gt;纯粹：“多点纯粹少点人情世故利益关系，人简单了，做出来的东西才会给人感觉到善意”&lt;/li&gt;
+&lt;li&gt;逻辑、直觉，缺一不可&amp;lt;small&amp;gt;（个人而言更趋向直觉）&lt;/small&gt;&lt;/li&gt;
+&lt;li&gt;品味，气质：用户所接触的永远是外在形式，这也是他们所看到的&lt;/li&gt;
+&lt;li&gt;沟通能力，简单的表述让人明白，表达产品理念，且有说服力&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3&gt;必读书籍&lt;/h3&gt;
+
+&lt;p&gt;作为产品设计师，一些职业素养还是需要理论支持的，下面是一些书刊帮助认知产品设计:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://book.douban.com/subject/3567853/&quot;&gt;Getting Real&lt;/a&gt;，中文版本点&lt;a href=&quot;http://cnborn.net/docs/getting_real/index.html&quot;&gt;这里&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://book.douban.com/subject/5320866/&quot;&gt;Rework&lt;/a&gt;：37signals 必出精品&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://book.douban.com/subject/25861795/&quot;&gt;Rework2&lt;/a&gt;：主要讲远程协作&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://book.douban.com/subject/5394309/&quot;&gt;简约至上&lt;/a&gt;：大名鼎鼎，无需多说&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://book.douban.com/subject/4243770/&quot;&gt;创新者的窘境&lt;/a&gt;：好的创新，好的产品&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://book.douban.com/subject/2144413/?i=0&quot;&gt;简单法则&lt;/a&gt;：简单的哲学&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://book.douban.com/subject/6024020/&quot;&gt;关键设计报告&lt;/a&gt;：交互届圣书，中文版预览版点&lt;a href=&quot;http://down.51cto.com/data/826835&quot;&gt;这里&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://book.douban.com/subject/25817190/&quot; title=&quot;设计之下&quot;&gt;设计之下&lt;/a&gt;：搜狐团队出品，算是国内比较好的设计书籍&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3&gt;必做的事&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;维持一个blog，记录感悟和总结，向业内分享、发声，打造个人品牌&lt;/li&gt;
+&lt;li&gt;学习观察人，探究人的内在&lt;/li&gt;
+&lt;li&gt;玩各种互联网产品，Appstore的排行榜至少每月刷一次&lt;/li&gt;
+&lt;li&gt;读更多不同专业的书，学会跨界思维—“他山之石，可以攻玉。”&lt;/li&gt;
+&lt;li&gt;反复“把玩”自己出的产品，将优秀产品细节分解&lt;/li&gt;
+&lt;li&gt;对趋势，行业趋势、产品趋势、设计趋势&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3&gt;理念文化&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;简单优雅的产品理念&lt;/li&gt;
+&lt;li&gt;极简生活主义，可参看此文章：&lt;/li&gt;
+&lt;li&gt;Geek精神和文化&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3&gt;国内外优秀产品设计师&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.zhihu.com/people/hepo&quot; title=&quot;陈海波&quot;&gt;陈海波&lt;/a&gt;: FarBox产品设计师&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://zhuanlan.zhihu.com/youwenwen&quot;&gt;设计师 Yoyo&lt;/a&gt;:华为设计总监&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3&gt;入门文章&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@ericeriksson/what-is-product-design-9709572cb3ff&quot;&gt;What is Product Design?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>产品设计师常用网站</title>
+   <link href="http://cellier.me/2015/01/20/product_designer_resouce_by_cellier/"/>
+   <updated>2015-01-20T00:00:00+08:00</updated>
+   <id>http://cellier.me/2015/01/20/product_designer_resouce_by_cellier</id>
+   <content type="html">&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt; 下面是个人常使用的一些网站，涉及产品资讯、产品思维、UI素材、图片素材、灵感参考、经典教程等聚合的网站，不定期更新。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://7d9kkp.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202015-01-25%20%E4%B8%8B%E5%8D%8811.36.32.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;h4&gt;Sketch相关&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;教程：&lt;a href=&quot;http://www.sketchcn.com/sketch-chinese-user-manual.html&quot;&gt;Sketch3中文手册&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://uiweek.com/wp-content/plugins/download-monitor/download.php?id=18&quot;&gt;下载Sketch3中文手册iBOOK&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;资源：&lt;a href=&quot;http://www.sketchappsources.com/&quot;&gt;sketchappsources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://designcode.io/&quot;&gt;一套iOS应用设计和原型制作教程:design+code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4&gt;一些学习技术、设计的网站：&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.udemy.com/&quot;&gt;Udemy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4&gt;产品设计好文章&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@JanLosert/14-different-ways-of-product-design-3f349a19e613&quot;&gt;14 Different Ways of Product Design&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://tmtphoto.qiniudn.com/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;&lt;div align=middle&gt;&lt;a href=&quot;https://500px.com/&quot;&gt;最出色的摄影社区 500px&lt;/a&gt;&lt;/div&gt;&lt;/h5&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
@@ -32,7 +152,7 @@
 
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;h4&gt;&lt;div align=middle&gt;&lt;a href=&quot;http://thestocks.im/&quot;&gt;THE STOCKS&lt;/a&gt;&lt;/div&gt;&lt;/h4&gt;
+&lt;h5&gt;&lt;div align=middle&gt;&lt;a href=&quot;http://thestocks.im/&quot;&gt;THE STOCKS&lt;/a&gt;&lt;/div&gt;&lt;/h5&gt;
 
 &lt;h6&gt;&lt;div align=middle&gt;&lt;a href=&quot;http://thestocks.im/&quot;&gt;the best royalty free stock photos in one place&lt;/a&gt;&lt;/div&gt;&lt;/h6&gt;
 
@@ -42,7 +162,7 @@
 
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;h4&gt;&lt;div align=middle&gt;&lt;a href=&quot;https://unsplash.com/&quot;&gt;Unsplash&lt;/a&gt;&lt;/div&gt;&lt;/h4&gt;
+&lt;h5&gt;&lt;div align=middle&gt;&lt;a href=&quot;https://unsplash.com/&quot;&gt;Unsplash&lt;/a&gt;&lt;/div&gt;&lt;/h5&gt;
 
 &lt;h6&gt;&lt;div align=middle&gt;&lt;a href=&quot;https://unsplash.com/&quot;&gt;Free High Resolution Photos&lt;/a&gt;&lt;/div&gt;&lt;/h6&gt;
 
@@ -56,7 +176,7 @@
 
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;h4&gt;&lt;div align=middle&gt;&lt;a href=&quot;http://allthefreestock.com/&quot;&gt;All The Free Stock&lt;/a&gt;&lt;/div&gt;&lt;/h4&gt;
+&lt;h5&gt;&lt;div align=middle&gt;&lt;a href=&quot;http://allthefreestock.com/&quot;&gt;All The Free Stock&lt;/a&gt;&lt;/div&gt;&lt;/h5&gt;
 
 &lt;h6&gt;&lt;div align=middle&gt;&lt;a href=&quot;http://allthefreestock.com/&quot;&gt;Free Stock Images &amp;amp; Videos&lt;/a&gt;&lt;/div&gt;&lt;/h6&gt;
 
@@ -69,7 +189,7 @@
 
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;h4&gt;&lt;div align=middle&gt;&lt;a href=&quot;http://streetwill.co/&quot;&gt;Streetwill&lt;/a&gt;&lt;/div&gt;&lt;/h4&gt;
+&lt;h5&gt;&lt;div align=middle&gt;&lt;a href=&quot;http://streetwill.co/&quot;&gt;Streetwill&lt;/a&gt;&lt;/div&gt;&lt;/h5&gt;
 
 &lt;h6&gt;&lt;div align=middle&gt;&lt;a href=&quot;http://streetwill.co/&quot;&gt; Free Hi Res Photos&lt;/a&gt;&lt;/div&gt;&lt;/h6&gt;
 
@@ -77,6 +197,165 @@
 &lt;img class=&quot;shadow&quot; src=&quot;http://tmtphoto.qiniudn.com/Streetwill.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>社区O2O展望之--邻里社交</title>
+   <link href="http://cellier.me/2015/01/12/%E7%A4%BE%E5%8C%BAO2O%E4%B9%8B%E9%82%BB%E9%87%8C%E7%A4%BE%E4%BA%A4%E5%85%B3%E7%B3%BB/"/>
+   <updated>2015-01-12T00:00:00+08:00</updated>
+   <id>http://cellier.me/2015/01/12/社区O2O之邻里社交关系</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://7tsy6t.com1.z0.glb.clouddn.com/%E6%9C%AA%E6%A0%87%E9%A2%98-1.jpg&quot; alt=&quot;社区O2O&quot;&gt;&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt; 2014年已经过眼云烟，云烟中有着叮咚倒闭传闻和小区无忧再融资...我们身处在一个疯狂而美好的时代，也生活在一个忙碌且充满挑战的时代，
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;互联网的外在形式是“连接”，本质是提升效率的工具，通过将物与人、服务与人、人与人、物与物连接起来，提升他们之间的运行效率...&lt;/p&gt;
+
+&lt;p&gt;马克•格兰诺维特马克•格兰诺维特在他主持的研究项目报告里〈硅谷社会关系网络〉里将“社会关系网络”定义为“由社会关系或某一特殊类型的链接联系起来的一些节点和行为者（个人和组织）。两个行为者之间的链或关系既有紧密程度也有具体内容。内容可能包括信息、建议或友谊，共同利益或成员资格，通常还有一定程度的信任。在硅谷像在其他地方一样，链的信任程度是关键。&lt;/p&gt;
+
+&lt;p&gt;随着线上虚拟生活环境的完善，人们的日常活动开始迁移&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;产品体验跟不上线下推广营销&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4&gt;邻里社交：信任是关键&lt;/h4&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;信任公式&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://7tsy6t.com1.z0.glb.clouddn.com/2312312.jpg&quot; alt=&quot;信任公式&quot;&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h4&gt;社交分类&lt;/h4&gt;
+
+&lt;p&gt;按照日常生活中可发生的社交场景进行属性分类，是以下三种：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;组织性社交&lt;/li&gt;
+&lt;li&gt;兴趣式社交&lt;/li&gt;
+&lt;li&gt;事件级社交&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;组织性社交&lt;/h5&gt;
+
+&lt;p&gt;此类社交占据了普通人的生活主旋律，主要是由社会组织框架决定的社交模式，包括：家庭、公司、学校、团体...&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;兴趣式社交&lt;/h5&gt;
+
+&lt;p&gt;此类社交主要产生于某些共同爱好，比如都喜欢打篮球，就有可能认识其他班级同样常打篮球的&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;事件级社交&lt;/h5&gt;
+
+&lt;p&gt;这种类型的社交是基于事件发生的，比如“偶遇”，“事故”...
+现在在这块耕耘的主要是一些快速约会软件：Tinder、友加、比邻、微聚...
+事件级社交主要是要解决社交落地的效率问题。大多数人在无聊的时候，首先想到的是要做某件事（打游戏、逛街、吃饭、去图书馆、看电影等），而不是要见某个人（这在熟人场景才会发生）。一个事件级社交产品要做的，是确立用户可社交的场景，然后再往这个场景里面填入合适的人。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://7tsy6t.com1.z0.glb.clouddn.com/djalksd-1.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;三者不是相互独立分隔的，它们的关系是“我中有你，你中有我”，且具备一定条理性发展，例如：非常恶俗地从你在校园骑自行车不小心撞上一位年龄相仿正适合谈恋爱的女同学说起，这就是典型的因事件而开始社交，然后你得赔偿吧，先是一些照顾照料，然后是肉偿...中间你们会发现，原来大家都喜欢《大话西游》这部片子，电影口味如此相同，那么就开始约会了...然后大家就熟门熟路了，只要是你的联系方式，不论电话、微信、QQ...你都会有她的联系方式，你们变得像亲人一般...具备了社会组织性，这时候，你们已经被社会定义成“情侣”！&lt;/p&gt;
+
+&lt;p&gt;还有可能是&lt;/p&gt;
+
+&lt;h4&gt;《Tinder Plus》&lt;/h4&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;div align=center&gt;&lt;embed src=&quot;http://player.youku.com/player.php/sid/XODY3MzAxODQw/v.swf&quot; allowFullScreen=&quot;true&quot; quality=&quot;high&quot; width=&quot;480&quot; height=&quot;400&quot; align=&quot;middle&quot; allowScriptAccess=&quot;always&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/embed&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h4&gt;&lt;div align=center&gt;&lt;b&gt;考拉社区概念界面&lt;/b&gt;&lt;/div&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.ui.cn/data/file/2/7/7/171772.png?imageView2/2/w/900/q/90&quot; alt=&quot;&quot;&gt;
+&lt;div align=right&gt;&lt;p&gt;&lt;cite&gt;&amp;mdash; 图片来自&lt;a href=&quot;http://i.ui.cn/ucenter/93343&quot; target=&quot;_blank&quot;&gt;@cellier&lt;/a&gt;&lt;/cite&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;现有的陌生人社交体系一定会是沿着社交O2O场景化发展，结合现有的线上消费优惠进行红利分成，例如：Lemon（一款兴趣小组app）的电影小组，其中就可直接打通猫眼或者格瓦拉票业，
+这像是团购模式的升级，现在的陌生人社交会趋向与线下商业模式相融，最先开始的一定是电影产业。
+&lt;br&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.iyiou.com/p/14900&quot;&gt;大胆猜想！陌陌最合理的商业化之路，在于团购!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://money.163.com/14/0918/10/A6DVD66H002551G6.html&quot;&gt;O2O不久将如何攻陷线下社交&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.zhihu.com/question/19917132&quot;&gt;O2O 的本质是什么？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.zhihu.com/question/24551029&quot;&gt;线下活动也算O2O的一种吗？对于互联网公司的意义是什么？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.zhihu.com/question/20556382&quot;&gt;为什么微信往 O2O 生活上发力，而不是移动社交？&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;更高级点得，使用类似&lt;p&gt; &lt;a href=&quot;http://baike.baidu.com/link?url=yLoQISPKMEEBamUxz6UdX8rX3TsXZZVn3xAwtnOAQAjoz6sOYIp2PNKrH4X5J-aoSHzC8ZJLjR6LmUhfaiYGrK&quot; target=&quot;_blank&quot;&gt; FOAF &lt;/a&gt;进行社区数据的有效管理，这些数据段就可被软件所识别，进行数据推算，现在的FOAF多用于网络爬虫。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h2&gt;内容既服务的时代来临&lt;/h2&gt;
+
+&lt;p&gt;内容既服务，衍生于软件既服务的思考，社区O2O的模式决定了内容既服务的价值性，21世纪千万别走营销战略，会被用户唾弃。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h2&gt;个人节点的重要性&lt;/h2&gt;
+
+&lt;p&gt;以人为服务中心的理念决定了一个社区的社员身份确定性，会使其成为一个点，身份标识是社区的基础。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h2&gt;产品生态的自我演化&lt;/h2&gt;
+
+&lt;p&gt;一个好的社交产品，从来不需要运营的过多干预，她有自生产自消耗的能力。
+一个顶尖的社群产品，在“形态”里面永远只是构架了一个形而从未有态，态是用户演化的。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3&gt;真实才有价值&lt;/h3&gt;
+
+&lt;p&gt;社交的价值在于真实--就是那种实实在在满足了人排遣孤独欲的饱和感。
+孤独可以被线上部分解决，但人的生存问题还是线下的，要消费要服务...这时候O2O就粉墨登场了，所以微信的发展也是如此，我想张小龙一定是鼓励微信用户去线下进行活动的，对微信而言，价值不是用户在其上面花两个小时聊天，而是花了两分钟说几句，然后通过微信订购了一家餐厅或者影院，然后用户线下交流去了，这应该是微信最想完成的生态闭环。&lt;/p&gt;
+
+&lt;p&gt;社区社交也是如此，线上的交流展示是用户黏着度，但这不是最重要的，对用户有价值的是，他们能在邻居社交中获取到社交的满足感，生活的充实感，这绝对不是在陌陌上打两个小时的嘴炮能满足的。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h6&gt;后记&lt;/h6&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;随着互联网技术的发展，信息的获取和消费变得简单，以信息不对称构造生态圈的商业模式在21世纪变得不切实际的，“渠道为王”的时代也眼看着就要过去，只有靠那些能“吸”住用户的强痛点去构架自己商业壁垒才是最为有效的扩张手段......但在O2O这个圈子从来不缺那些敢于填坑土豪级玩家，他们似乎还是执迷于那些不存在的“捷径”...但仍奉劝一句：&lt;/p&gt;
+
+&lt;h4&gt;&lt;div align=center&gt;&lt;b&gt;讨好用户才是真欢喜！&lt;/b&gt;&lt;/div&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d13yacurqjgara.cloudfront.net/users/285475/screenshots/1780578/dribbble.gif&quot; alt=&quot;&quot;&gt;
+&lt;div align=right&gt;&lt;p&gt;&lt;cite&gt;&amp;mdash; 图片来自&lt;a href=&quot;http://markusmagnusson.tv/&quot; target=&quot;_blank&quot;&gt;@Markus Magnusson&lt;/a&gt;&lt;/cite&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h6&gt;参考资料：&lt;/h6&gt;
+
+&lt;ol&gt;
+&lt;li&gt; &lt;a href=&quot;https://www.facebook.com/notes/facebook-data-team/rethinking-information-diversity-in-networks/10150503499618859&quot; target=&quot;_blank&quot;&gt;《Rethinking Information Diversity in Networks》&lt;/a&gt;（来源facebook需翻墙）&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;http://book.douban.com/subject/2091738/&quot; target=&quot;_blank&quot;&gt;《The Trusted Advisor》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;http://www.36kr.com/p/200936.html&quot; target=&quot;_blank&quot;&gt;《弱关系社区里，人人都是大明星系列》&lt;/a&gt;（来源&lt;a href=&quot;http://www.36kr.com/dovey&quot; target=&quot;_blank&quot;&gt;Dovey&lt;/a&gt;）&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;http://www.cnblogs.com/shanyou/articles/270150.html&quot;&gt;FOAF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;http://www.ibm.com/developerworks/cn/xml/x-watch/part4/index.html&quot;&gt;XML 观察: 使用 FOAF 支持在线社区&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;http://www.docin.com/p-675263682.html&quot;&gt;基于FOAF的分布式移动SNS应用&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;http://blog.sina.com.cn/s/blog_6b706e150100wnib.html&quot;&gt;Friend of Friend(FOAF)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;http://baike.baidu.com/link?url=vRGOLBa8b-GuCyGh-0ejJ8LTSytiNWcrz5GW8p1PyIJQzB3Z8t6YJpunhCG6OmDOCGE2WBCPyee4U48ud2nKFa&quot;&gt;弱连接&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;http://blog.sina.com.cn/s/blog_5c57b5190102dwaw.html&quot;&gt;Facebook研究报告全文：重视社交网络“弱关系”&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 </content>
  </entry>
  

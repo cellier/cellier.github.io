@@ -15,12 +15,11 @@ title: 产品设计师的自我修养
 
 ### 基本素能
 
-
 * 英文要好：免不了要在例如medium、producthunt、Quora等英文网站学习
 * 搜索能力:硬盘500G显示你的搜寻能力
 * 持续学习钻研能力
 * 纯粹：“多点纯粹少点人情世故利益关系，人简单了，做出来的东西才会给人感觉到善意”
-* 逻辑、直觉，缺一不可\<small>（个人而言更趋向直觉）</small>
+* 逻辑、直觉，缺一不可 <small>（个人而言更趋向直觉）</small>
 * 品味，气质：用户所接触的永远是外在形式，这也是他们所看到的
 * 沟通能力，简单的表述让人明白，表达产品理念，且有说服力
 
@@ -55,14 +54,49 @@ title: 产品设计师的自我修养
 * 极简生活主义，可参看此文章：
 * Geek精神和文化
 
+
+
+<br><br>
+
+### 我的工具集
+
+* [Sublime](http://www.sublimetext.com):用于改改网页，使用起来很轻便，大多时候也是我使用Markdown编写文字的得力助手（比如这篇文章就是这样使用它写的）
+* UIysses & iA Writer & Typed，尝试了各种Markdown，觉得这几款做得还算优秀（%>_<%，剁了好多手）
+* [鱼摆摆](https://ybb117.com/):9块钱一个月让我保持一直在墙外的快感，速度佳。
+* [xScope](http://xscopeapp.com/):支持10项功能：镜像、文字测量、尺寸、尺子、覆盖、屏幕虚拟、取色器、标尺、框架和十字标。
+* Reeder
+* Sketch
+* MindNode
+* 网易云音乐
+* Teambition & slack
+* Evernote
+* OmniFocus
+* Form
+* Noizio
+* Xcode
+* Sip
+* Couleurs
+* [Stache](http://getstache.com/)：用于书签管理很直观，比google官方出品的<b>Bookmark Manager</b>插件好多了，mac+app四十不到（%>_<%，又剁手了）
+![](http://7d9kkp.com1.z0.glb.clouddn.com/屏幕快照 2015-01-27 下午4.45.12.png)
+* OmniGraffle
+* Adobe 
+* Keynote 
+
+
 <br><br>
 
 ### 国内外优秀产品设计师
 
-
-
-* [陈海波](http://www.zhihu.com/people/hepo "陈海波"): FarBox产品设计师
+* [Meng To](https://medium.com/@MengTo):[designcode](https://designcode.io/)创始人
+* [Dan Cederholm](http://simplebits.com): Dribbble‘s Designer
+* [David Lanham](http://www.dlanham.com/):GUI设计师、插画师。iconfactory设计师，The Heist（app）首席设计师。
+* [Liu Yuan](https://dribbble.com/liuyuan)
+* [allidryer](http://allidryer.com/):a Designer at Twitter and a licensed Architect in the state of Texas.
+* [臭鱼](http://www.chouyu.com.cn/):一个交互设计师
+* [黄海均](http://haijuns.com/):产品
+* [陈海波](http://www.zhihu.com/people/hepo "陈海波"):FarBox产品设计师
 * [设计师 Yoyo](http://zhuanlan.zhihu.com/youwenwen):华为设计总监
+* [胡超](http://huchao.me/):腾讯产品
 
 <br><br>
 

@@ -33,6 +33,18 @@ title: 产品设计师常用网站
 
 * [14 Different Ways of Product Design](https://medium.com/@JanLosert/14-different-ways-of-product-design-3f349a19e613)
 
+
+<br>
+
+#### 新产品网站
+
+* [Product Hunt](http://www.producthunt.com/):"The best new products, every day"
+* [NEXT](http://next.36kr.com/posts):"不错过任何一个新产品"
+* [Mindstore](http://mindstore.io/):"在这里找到最好的产品与想法"
+* [Demo8](http://www.demo8.com/):"发现最新的好产品",它的app端做得比较不错
+* 另外还有些可看可不看的：[新品啦](http://xinpinla.com/)；[TODAY](http://today.itjuzi.com/);[入手](http://www.rushou.net/)
+
+
 <br>
 
 ---

@@ -4,7 +4,7 @@
  <title>Cellier</title>
  <link href="http://cellier.me/atom.xml" rel="self"/>
  <link href="http://cellier.me/"/>
- <updated>2015-01-26T00:00:06+08:00</updated>
+ <updated>2015-02-04T19:36:48+08:00</updated>
  <id>http://cellier.me</id>
  <author>
    <name>cellier</name>
@@ -34,7 +34,7 @@
 &lt;li&gt;搜索能力:硬盘500G显示你的搜寻能力&lt;/li&gt;
 &lt;li&gt;持续学习钻研能力&lt;/li&gt;
 &lt;li&gt;纯粹：“多点纯粹少点人情世故利益关系，人简单了，做出来的东西才会给人感觉到善意”&lt;/li&gt;
-&lt;li&gt;逻辑、直觉，缺一不可&amp;lt;small&amp;gt;（个人而言更趋向直觉）&lt;/small&gt;&lt;/li&gt;
+&lt;li&gt;逻辑、直觉，缺一不可 &lt;small&gt;（个人而言更趋向直觉）&lt;/small&gt;&lt;/li&gt;
 &lt;li&gt;品味，气质：用户所接触的永远是外在形式，这也是他们所看到的&lt;/li&gt;
 &lt;li&gt;沟通能力，简单的表述让人明白，表达产品理念，且有说服力&lt;/li&gt;
 &lt;/ul&gt;
@@ -81,11 +81,47 @@
 
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 
+&lt;h3&gt;我的工具集&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.sublimetext.com&quot;&gt;Sublime&lt;/a&gt;:用于改改网页，使用起来很轻便，大多时候也是我使用Markdown编写文字的得力助手（比如这篇文章就是这样使用它写的）&lt;/li&gt;
+&lt;li&gt;UIysses &amp;amp; iA Writer &amp;amp; Typed，尝试了各种Markdown，觉得这几款做得还算优秀（%&amp;gt;_&amp;lt;%，剁了好多手）&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://ybb117.com/&quot;&gt;鱼摆摆&lt;/a&gt;:9块钱一个月让我保持一直在墙外的快感，速度佳。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://xscopeapp.com/&quot;&gt;xScope&lt;/a&gt;:支持10项功能：镜像、文字测量、尺寸、尺子、覆盖、屏幕虚拟、取色器、标尺、框架和十字标。&lt;/li&gt;
+&lt;li&gt;Reeder&lt;/li&gt;
+&lt;li&gt;Sketch&lt;/li&gt;
+&lt;li&gt;MindNode&lt;/li&gt;
+&lt;li&gt;网易云音乐&lt;/li&gt;
+&lt;li&gt;Teambition &amp;amp; slack&lt;/li&gt;
+&lt;li&gt;Evernote&lt;/li&gt;
+&lt;li&gt;OmniFocus&lt;/li&gt;
+&lt;li&gt;Form&lt;/li&gt;
+&lt;li&gt;Noizio&lt;/li&gt;
+&lt;li&gt;Xcode&lt;/li&gt;
+&lt;li&gt;Sip&lt;/li&gt;
+&lt;li&gt;Couleurs&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://getstache.com/&quot;&gt;Stache&lt;/a&gt;：用于书签管理很直观，比google官方出品的&lt;b&gt;Bookmark Manager&lt;/b&gt;插件好多了，mac+app四十不到（%&amp;gt;_&amp;lt;%，又剁手了）
+&lt;img src=&quot;http://7d9kkp.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202015-01-27%20%E4%B8%8B%E5%8D%884.45.12.png&quot; alt=&quot;&quot;&gt;&lt;/li&gt;
+&lt;li&gt;OmniGraffle&lt;/li&gt;
+&lt;li&gt;Adobe &lt;/li&gt;
+&lt;li&gt;Keynote &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
 &lt;h3&gt;国内外优秀产品设计师&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.zhihu.com/people/hepo&quot; title=&quot;陈海波&quot;&gt;陈海波&lt;/a&gt;: FarBox产品设计师&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@MengTo&quot;&gt;Meng To&lt;/a&gt;:&lt;a href=&quot;https://designcode.io/&quot;&gt;designcode&lt;/a&gt;创始人&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://simplebits.com&quot;&gt;Dan Cederholm&lt;/a&gt;: Dribbble‘s Designer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.dlanham.com/&quot;&gt;David Lanham&lt;/a&gt;:GUI设计师、插画师。iconfactory设计师，The Heist（app）首席设计师。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://dribbble.com/liuyuan&quot;&gt;Liu Yuan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://allidryer.com/&quot;&gt;allidryer&lt;/a&gt;:a Designer at Twitter and a licensed Architect in the state of Texas.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.chouyu.com.cn/&quot;&gt;臭鱼&lt;/a&gt;:一个交互设计师&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://haijuns.com/&quot;&gt;黄海均&lt;/a&gt;:产品&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.zhihu.com/people/hepo&quot; title=&quot;陈海波&quot;&gt;陈海波&lt;/a&gt;:FarBox产品设计师&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://zhuanlan.zhihu.com/youwenwen&quot;&gt;设计师 Yoyo&lt;/a&gt;:华为设计总监&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://huchao.me/&quot;&gt;胡超&lt;/a&gt;:腾讯产品&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
@@ -134,6 +170,18 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@JanLosert/14-different-ways-of-product-design-3f349a19e613&quot;&gt;14 Different Ways of Product Design&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4&gt;新产品网站&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.producthunt.com/&quot;&gt;Product Hunt&lt;/a&gt;:&amp;quot;The best new products, every day&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://next.36kr.com/posts&quot;&gt;NEXT&lt;/a&gt;:&amp;quot;不错过任何一个新产品&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://mindstore.io/&quot;&gt;Mindstore&lt;/a&gt;:&amp;quot;在这里找到最好的产品与想法&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.demo8.com/&quot;&gt;Demo8&lt;/a&gt;:&amp;quot;发现最新的好产品&amp;quot;,它的app端做得比较不错&lt;/li&gt;
+&lt;li&gt;另外还有些可看可不看的：&lt;a href=&quot;http://xinpinla.com/&quot;&gt;新品啦&lt;/a&gt;；&lt;a href=&quot;http://today.itjuzi.com/&quot;&gt;TODAY&lt;/a&gt;;&lt;a href=&quot;http://www.rushou.net/&quot;&gt;入手&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;

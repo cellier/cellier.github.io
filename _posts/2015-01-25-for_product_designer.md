@@ -3,11 +3,14 @@ layout: post
 title: 产品设计师的自我修养
 ---
 ![](http://7d9kkp.com1.z0.glb.clouddn.com/0049_Untitled_2010_hires-copy.jpg)
+
+<!-- more -->
+
 <div align=right><p><cite>&mdash; 图片来自<a href="http://www.moonassi.com" target="_blank">@moonassi</a></cite></div>
 
      概念里大部分产品设计师会涵盖传统互联网中 PM、UE、UI 这三个角色，有的甚至是：产品经理（拥有产品素养）+美工（拥有视觉设计能力）+会套用框架的初级码农，简直分分钟可以自己创业圈钱，迎娶白富美，走向人生巅峰...
 
-<!-- more -->
+
 
 往往某些产品设计师各方面能力都有，所以不适合在公司一个萝卜一个坑的制度下工作，而更多选择了工作室的模式，或者干脆freelancer或者自己创业。
 

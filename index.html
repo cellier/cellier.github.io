@@ -4,19 +4,27 @@ title: Blog
 ---
 
 <div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
+
+ {% for post in paginator.posts %} 
+   
+   <div class="post">
+
     <h1 class="post-title">
       <a href="{{ post.url }}" target="_self">
         {{ post.title }}
       </a>
     </h1>
-    <span class="post-date">{{ post.date | date_to_string }}</span>     
-{{ post.content  ||split:'<!-- more -->' | first }}
-<h7><a href='{{post.url}}' target="_self" title='阅读全文'>阅读全文</a></h7>
 
-  </div>
+
+    <span class="post-date">{{ post.date | date_to_string }}</span> 
+
+
+{{ post.content  ||split:'<!-- more -->' | first }} 
+<h7><a href='{{post.url}}' target="_self" title='阅读全文'>阅读全文</a></h7> 
+</div>
+
   {% endfor %}
+
 </div>
 
 <div class="pagination">

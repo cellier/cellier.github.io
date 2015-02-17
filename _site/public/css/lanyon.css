@@ -40,84 +40,17 @@ body {
   overflow-x: hidden;
 }
 
-
 html {
-font-family: normal, 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, STKaiti, sans-serif;
--webkit-font-smoothing:antialiased;
-font-size:20px;
-font-size:1.08rem;
-font-weight: 400;
+  font-family: 'Open Sans','Helvetica Neue',Arial,'Hiragino Sans GB','Microsoft YaHei','WenQuanYi Micro Hei',sans-serif;
 }
 
-p{
-font-family: normal, 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, STKaiti, sans-serif;
--webkit-font-smoothing:antialiased;
-font-size:20px;
-font-size:.88rem;
-font-weight: 400;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans','Helvetica Neue',Arial,'Hiragino Sans GB','Microsoft YaHei','WenQuanYi Micro Hei',sans-serif;
+  font-weight: 400;
+  color: #313131;
+  letter-spacing: -.025rem;
 }
 
-img { height: auto; width: auto\9; width:100%;}
-
-h1{
-font-family: normal, 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, STKaiti, sans-serif;
--webkit-font-smoothing:antialiased;
-font-size:22px;
-font-size:1.88rem;
-font-weight: 400;
-letter-spacing: -0.01rem;
-}
-h2{
-font-family: normal, 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, STKaiti, sans-serif;
--webkit-font-smoothing:antialiased;
-font-size:22px;
-font-size:1.70rem;
-font-weight: 400;
-letter-spacing: -0.01rem;
-}
-h3{
-font-family: normal, 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, STKaiti, sans-serif;
--webkit-font-smoothing:antialiased;
-font-size:22px;
-font-size:1.56rem;
-font-weight: 400;
-letter-spacing: -0.01rem;
-}
-h4{
-font-family: normal, 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, STKaiti, sans-serif;
--webkit-font-smoothing:antialiased;
-font-size:22px;
-font-size:1.40rem;
-font-weight: 400;
-letter-spacing: -0.01rem;
-}
-h5{
-font-family: normal, 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, STKaiti, sans-serif;
--webkit-font-smoothing:antialiased;
-font-size:22px;
-font-size:1.24rem;
-font-weight: 400;
-letter-spacing: -0.01rem;
-}
-h6{
-font-family: normal, 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, STKaiti, sans-serif;
--webkit-font-smoothing:antialiased;
-font-size:22px;
-font-size:1.12rem;
-font-weight: 400;
-letter-spacing: -0.01rem;
-}
-
-
-.shadow {
--moz-box-shadow: 0px 1px 17px #535455;
--webkit-box-shadow: 0px 1px 17px #535455;
-box-shadow: 0px 1px 15px #535455;
-/* For IE 8 */
--ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#535455)";
-/* For IE 5.5 - 7 */
-filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#535455');
-}
 
 /*
  * Wrapper
@@ -142,12 +75,12 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Colo
 .container {
   max-width: 28rem;
 }
-@media (min-width: 38rem) {
+@media (min-width: 38em) {
   .container {
     max-width: 32rem;
   }
 }
-@media (min-width: 56rem) {
+@media (min-width: 56em) {
   .container {
     max-width: 38rem;
   }
@@ -163,8 +96,8 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Colo
 .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
-  margin-bottom: 2rem;
-  border-bottom: 0px solid #eee;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #eee;
 }
 .masthead-title {
   margin-top: 0;
@@ -175,13 +108,13 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Colo
   color: #505050;
 }
 .masthead-title small {
-  font-size: 65%;
+  font-size: 75%;
   font-weight: 400;
   color: #c0c0c0;
   letter-spacing: 0;
 }
 
-@media (max-width: 48rem) {
+@media (max-width: 48em) {
   .masthead-title {
     text-align: center;
   }
@@ -215,17 +148,16 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Colo
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
-  font-family: normal, 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, STKaiti, sans-serif;
--webkit-font-smoothing:antialiased;
+  font-family: 'Open Sans','Helvetica Neue',Arial,'Hiragino Sans GB','Microsoft YaHei','WenQuanYi Micro Hei',sans-serif;
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
   background-color: #202020;
   -webkit-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
 }
-@media (min-width: 30rem) {
+@media (min-width: 30em) {
   .sidebar {
-    font-size: .8rem; /* 14px */
+    font-size: .75rem; /* 14px */
   }
 }
 
@@ -235,7 +167,7 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Colo
   color: #fff;
 }
 .sidebar-item {
-  padding: rem;
+  padding: 1rem;
 }
 .sidebar-item p:last-child {
   margin-bottom: 0;
@@ -258,7 +190,7 @@ a.sidebar-nav-item:focus {
   border-color: transparent;
 }
 
-@media (min-width: 48rem) {
+@media (min-width: 48em) {
   .sidebar-item {
     padding: 1.5rem;
   }
@@ -280,7 +212,7 @@ a.sidebar-nav-item:focus {
   left: 1rem;
   display: block;
   width: 2.2rem;
-  padding: .65rem .65rem;
+  padding: .5rem .65rem;
   color: #505050;
   background-color: #fff;
   border-radius: 4px;
@@ -306,7 +238,7 @@ a.sidebar-nav-item:focus {
   background-color: #505050;
 }
 
-@media (min-width: 30.1rem) {
+@media (min-width: 30.1em) {
   .sidebar-toggle {
     position: fixed;
     width: 2.25rem;
@@ -346,6 +278,7 @@ a.sidebar-nav-item:focus {
 }
 
 #sidebar-checkbox:checked + .sidebar {
+  z-index: 10;
   visibility: visible;
 }
 #sidebar-checkbox:checked ~ .sidebar,
@@ -425,7 +358,7 @@ a.sidebar-nav-item:focus {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans','Helvetica Neue',Arial,'Hiragino Sans GB','Microsoft YaHei','WenQuanYi Micro Hei',sans-serif;
   color: #ccc;
   text-align: center;
 }
@@ -445,7 +378,7 @@ a.pagination-item:hover {
   background-color: #f5f5f5;
 }
 
-@media (min-width: 30rem) {
+@media (min-width: 30em) {
   .pagination {
     margin: 3rem 0;
   }
@@ -592,4 +525,29 @@ a.pagination-item:hover {
 .theme-base-0f .sidebar-toggle,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+
+/*
+ * Overlay sidebar
+ *
+ * Make the sidebar content overlay the viewport content instead of pushing it
+ * aside when toggled.
+ */
+
+.sidebar-overlay #sidebar-checkbox:checked ~ .wrap {
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+}
+.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar-toggle {
+  box-shadow: 0 0 0 .25rem #fff;
+}
+.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
+  box-shadow: .25rem 0 .5rem rgba(0,0,0,.1);
+}
+
+/* Only one tweak for a reverse layout */
+.layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
+  box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
 }

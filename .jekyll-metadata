@@ -1,0 +1,119 @@
+---
+/Users/cellier/cellier.github.io/_posts/2015-01-02-考拉社区的2015年.md:
+  mtime: 2015-02-09 11:36:23.000000000 +08:00
+  deps:
+  - /Users/cellier/cellier.github.io/_layouts/post.html
+  - /Users/cellier/cellier.github.io/_includes/head.html
+  - /Users/cellier/cellier.github.io/_includes/sidebar.html
+  - /Users/cellier/cellier.github.io/_layouts/default.html
+/Users/cellier/cellier.github.io/_posts/2015-01-04-jekyll搭建博客教程.md:
+  mtime: 2015-02-09 11:36:54.000000000 +08:00
+  deps:
+  - /Users/cellier/cellier.github.io/_layouts/post.html
+  - /Users/cellier/cellier.github.io/_includes/head.html
+  - /Users/cellier/cellier.github.io/_includes/sidebar.html
+  - /Users/cellier/cellier.github.io/_layouts/default.html
+/Users/cellier/cellier.github.io/_posts/2015-01-12-社区O2O之邻里社交关系.md:
+  mtime: 2015-02-09 11:49:56.000000000 +08:00
+  deps:
+  - /Users/cellier/cellier.github.io/_layouts/post.html
+  - /Users/cellier/cellier.github.io/_includes/head.html
+  - /Users/cellier/cellier.github.io/_includes/sidebar.html
+  - /Users/cellier/cellier.github.io/_layouts/default.html
+/Users/cellier/cellier.github.io/_posts/2015-01-20-product_designer_resouce_by_cellier.md:
+  mtime: 2015-02-09 11:46:01.000000000 +08:00
+  deps:
+  - /Users/cellier/cellier.github.io/_layouts/post.html
+  - /Users/cellier/cellier.github.io/_includes/head.html
+  - /Users/cellier/cellier.github.io/_includes/sidebar.html
+  - /Users/cellier/cellier.github.io/_layouts/default.html
+/Users/cellier/cellier.github.io/_posts/2015-01-25-for_product_designer.md:
+  mtime: 2015-02-09 11:45:55.000000000 +08:00
+  deps:
+  - /Users/cellier/cellier.github.io/_layouts/post.html
+  - /Users/cellier/cellier.github.io/_includes/head.html
+  - /Users/cellier/cellier.github.io/_includes/sidebar.html
+  - /Users/cellier/cellier.github.io/_layouts/default.html
+/Users/cellier/cellier.github.io/_posts/2015-02-08-设计感应用国外篇.md:
+  mtime: 2015-02-09 16:59:01.000000000 +08:00
+  deps:
+  - /Users/cellier/cellier.github.io/_layouts/post.html
+  - /Users/cellier/cellier.github.io/_includes/head.html
+  - /Users/cellier/cellier.github.io/_includes/sidebar.html
+  - /Users/cellier/cellier.github.io/_layouts/default.html
+/Users/cellier/cellier.github.io/404.html:
+  mtime: 2015-02-04 20:22:10.000000000 +08:00
+  deps:
+  - /Users/cellier/cellier.github.io/_includes/head.html
+  - /Users/cellier/cellier.github.io/_includes/sidebar.html
+  - /Users/cellier/cellier.github.io/_layouts/default.html
+/Users/cellier/cellier.github.io/about.md:
+  mtime: 2015-01-17 21:17:51.000000000 +08:00
+  deps:
+  - /Users/cellier/cellier.github.io/_layouts/page.html
+  - /Users/cellier/cellier.github.io/_includes/head.html
+  - /Users/cellier/cellier.github.io/_includes/sidebar.html
+  - /Users/cellier/cellier.github.io/_layouts/default.html
+/Users/cellier/cellier.github.io/archive.html:
+  mtime: 2014-09-29 15:56:48.000000000 +08:00
+  deps:
+  - /Users/cellier/cellier.github.io/_includes/head.html
+  - /Users/cellier/cellier.github.io/_includes/sidebar.html
+  - /Users/cellier/cellier.github.io/_layouts/default.html
+/Users/cellier/cellier.github.io/atom.xml:
+  mtime: 2015-01-02 03:14:49.000000000 +08:00
+  deps: []
+/Users/cellier/cellier.github.io/index.html:
+  mtime: 2015-02-17 14:16:08.000000000 +08:00
+  deps:
+  - /Users/cellier/cellier.github.io/_includes/head.html
+  - /Users/cellier/cellier.github.io/_includes/sidebar.html
+  - /Users/cellier/cellier.github.io/_layouts/default.html
+/Users/cellier/cellier.github.io/CNAME:
+  mtime: 2015-01-02 11:40:03.000000000 +08:00
+  deps: []
+/Users/cellier/cellier.github.io/README.md:
+  mtime: 2015-01-01 10:21:33.000000000 +08:00
+  deps: []
+/Users/cellier/cellier.github.io/public/apple-touch-icon-144-precomposed.png:
+  mtime: 2015-01-04 14:07:48.000000000 +08:00
+  deps: []
+/Users/cellier/cellier.github.io/public/css/lanyon.css:
+  mtime: 2015-02-17 15:21:25.000000000 +08:00
+  deps: []
+/Users/cellier/cellier.github.io/public/css/poole.css:
+  mtime: 2015-02-17 15:21:28.000000000 +08:00
+  deps: []
+/Users/cellier/cellier.github.io/public/css/syntax.css:
+  mtime: 2015-02-17 15:21:35.000000000 +08:00
+  deps: []
+/Users/cellier/cellier.github.io/public/favicon.ico:
+  mtime: 2015-01-06 18:29:14.000000000 +08:00
+  deps: []
+/Users/cellier/cellier.github.io/_layouts/post.html:
+  mtime: 2015-01-23 12:01:45.000000000 +08:00
+  deps: []
+/Users/cellier/cellier.github.io/_includes/head.html:
+  mtime: 2015-02-04 19:36:48.000000000 +08:00
+  deps: []
+/Users/cellier/cellier.github.io/_layouts/page.html:
+  mtime: 2015-01-02 00:37:56.000000000 +08:00
+  deps: []
+/Users/cellier/cellier.github.io/_includes/sidebar.html:
+  mtime: 2015-02-17 14:34:53.000000000 +08:00
+  deps: []
+/Users/cellier/cellier.github.io/_layouts/default.html:
+  mtime: 2015-02-17 15:09:41.000000000 +08:00
+  deps: []
+/Users/cellier/cellier.github.io/public/css/--lanyon.css:
+  mtime: 2015-01-21 12:44:46.000000000 +08:00
+  deps: []
+/Users/cellier/cellier.github.io/public/css/poolexx.css:
+  mtime: 2015-01-06 23:08:27.000000000 +08:00
+  deps: []
+/Users/cellier/cellier.github.io/public/css/syntaxxx.css:
+  mtime: 2014-03-06 19:55:32.000000000 +08:00
+  deps: []
+/Users/cellier/cellier.github.io/public/css/lanyonxx.css:
+  mtime: 2015-01-21 12:44:46.000000000 +08:00
+  deps: []

@@ -111,6 +111,7 @@ var _hmt = _hmt || [];
         
       
     
+    <a class="sidebar-nav-item" href="http://cellier.me/resume">Resume</a>
     <!--a class="sidebar-nav-item" href="Mailto:cellier@mail.com">Email</a-->
 
 
@@ -130,24 +131,41 @@ var _hmt = _hmt || [];
 
       <div class="masthead">
         <div class="container">
-        <!--
-          <h3 class="masthead-title">
-            <a href="/" title="Home">Cellier</a></h3>
-            <h4 class="masthead-title"><small>我们从未念及大爆炸前同挤奇点的友谊</small></h4> 
-          -->
+            <h3 class="masthead-title">
+            <a href="/" target="_self" title="Home">Cellier</a>
+            <small> recall the friendship of singularity</small></h3> 
+         
         </div>
       </div>
 
       <div class="container content">
         <div class="page">
-  <h1 class="page-title">404: </h1>
-  <p class="lead">你刚好....和我的文字擦肩而过 <a href="/"> 重新找寻</a> 我的文字 </p>
+  <h1 class="page-title">404: Page not found</h1>
+  <p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="">Head back home</a> to try finding it again.</p>
 </div>
 
       </div>
     </div>
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
 
   </body>
 </html>

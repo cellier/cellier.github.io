@@ -9,7 +9,7 @@ permalink: /archive/
 ### {{ post_year1 }}
 <br>
 {% endif %}
- 
-[{{ post.title }}]({{ post.url }}) <span class="pull-right">{{ post.date | date:'%m月%d日' }}</span>
+   
+<a href="{{ post.url }}" target="_self"> {{ post.title }}  <span class="pull-right">{{ post.date | date:'%m月%d日' }}</span>
 
 {% endfor %}

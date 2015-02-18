@@ -51,6 +51,30 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.025rem;
 }
 
+h1 {
+  font-size: 1.15rem;
+}
+
+h2 {
+  margin-top: 1rem;
+  font-size: 1.05rem;
+}
+
+h3 {
+  margin-top: 1.5rem;
+  font-size: 0.95rem;
+}
+
+h4, h5, h6 {
+  font-weight:bold;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+}
+
+p {
+  margin-top: 1rem;
+  font-size: 0.75rem;
+}
 
 /*
  * Wrapper
@@ -108,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #bdbdbd;
 }
 .masthead-title small {
-  font-size: 75%;
+  font-size: 65%;
   font-weight: 400;
   color: #bdbdbd;
   letter-spacing: 0;
@@ -306,7 +330,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  font-size: 1.35rem;
+  font-size: 1.05rem;
   color: #424242;
 }
 .page-title,
@@ -316,7 +340,7 @@ a.sidebar-nav-item:focus {
 
 /* Meta data line below post title */
 .post-date {
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;

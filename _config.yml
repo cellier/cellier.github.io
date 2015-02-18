@@ -6,8 +6,8 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            cellier
-tagline:          ':)'
+title:            :)
+tagline:          ''
 description:      '『he looks like a dog so』 『because he is a PM』'
 url:              http://cellier.me
 

@@ -44,6 +44,7 @@ html {
   font-family: 'Open Sans','Helvetica Neue',Arial,'Hiragino Sans GB','Microsoft YaHei','WenQuanYi Micro Hei',sans-serif;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans','Helvetica Neue',Arial,'Hiragino Sans GB','Microsoft YaHei','WenQuanYi Micro Hei',sans-serif;
   font-weight: 400;
@@ -102,15 +103,15 @@ h1, h2, h3, h4, h5, h6 {
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: #505050;
+  color: #424242;
 }
 .masthead-title a {
-  color: #505050;
+  color: #212121;
 }
 .masthead-title small {
   font-size: 75%;
   font-weight: 400;
-  color: #c0c0c0;
+  color: #bdbdbd;
   letter-spacing: 0;
 }
 
@@ -306,19 +307,21 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  font-size: 1.35rem;
+  color: #424242;
 }
 .page-title,
 .post-title {
-  margin-top: 0;
+  margin-top: 0.5rem;
 }
 
 /* Meta data line below post title */
 .post-date {
+  font-size: 0.9rem;
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
-  color: #9a9a9a;
+  color: #bdbdbd;
 }
 
 /* Related posts */

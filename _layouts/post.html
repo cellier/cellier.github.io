@@ -3,8 +3,14 @@ layout: default
 ---
 
 <div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
+  <h1 class="post-title" style="text-align:center">{{ page.title }}</h1>
+<br>
+  <span class="post-date" style="text-align:center">{{ page.date | date:'%Y.%m.%d' }}</span>
+
+ <div style="border:1px dashed #eeeeee"></div> 
+
+<br>  
+
   {{ content }}
 </div>
 
@@ -26,20 +32,19 @@ layout: default
 <!-- 多说公共JS代码 end -->
 
 
-<!--
+
 <div class="related">
-  <span><small>其它文章</small></span>
+  <!--<span><small>其它文章</small></span>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
       <li>
         <h7>
           <a href="{{ post.url }}" target="_self">
             <small>{{ post.title }}</small>
-
             {{ post.date | date_to_string }}
           </a>
         </h7>
       </li>
     {% endfor %}
-  </ul>
-</div>-->
+  </ul>-->
+</div>

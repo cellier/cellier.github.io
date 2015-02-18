@@ -59,7 +59,7 @@ html {
 }
 
 body {
-  font-size: 0.75rem;
+  font-size: 0.80rem;
   color: #515151;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
@@ -97,7 +97,7 @@ h2 {
 }
 h3 {
   margin-top: 1.5rem;
-  font-size: 0.85rem;
+  font-size: 0.90rem;
 }
 h4, h5, h6 {
   margin-top: 1rem;
@@ -108,7 +108,7 @@ h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  font-size: 0.75rem;
+  font-size: 0.80rem;
 }
 
 strong {
@@ -120,7 +120,7 @@ strong {
 ul, ol, dl {
   margin-top: 0;
   margin-bottom: 1rem;
-  font-size: 0.75rem;
+  font-size: 0.80rem;
 }
 
 dt {
@@ -140,7 +140,7 @@ hr {
 }
 
 abbr {
-  font-size: 65%;
+  font-size: 80%;
   font-weight: bold;
   color: #555;
   text-transform: uppercase;
@@ -157,7 +157,7 @@ pre {
 }
 code {
   padding: .25em .5em;
-  font-size: 70%;
+  font-size: 80%;
   color: #bf616a;
   background-color: #f9f9f9;
   border-radius: 3px;
@@ -167,7 +167,7 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   padding: 1rem;
-  font-size: .6rem;
+  font-size: 0.80rem;
   line-height: 1.4;
   white-space: pre;
   white-space: pre-wrap;
@@ -177,7 +177,7 @@ pre {
 }
 pre code {
   padding: 0;
-  font-size: 70%;
+  font-size: 80%;
   color: inherit;
   background-color: transparent;
 }
@@ -203,7 +203,7 @@ pre code {
   background-color: transparent;
 }
 .gist .gist-file .gist-data {
-  font-size: .6rem !important;
+  font-size: 0.80rem !important;
   line-height: 1.4;
 }
 .gist code {
@@ -262,7 +262,7 @@ tbody tr:nth-child(odd) th {
  */
 
 .lead {
-  font-size: 0.75rem;
+  font-size: 0.80rem;
   font-weight: 300;
 }
 
@@ -317,7 +317,7 @@ tbody tr:nth-child(odd) th {
   color: #505050;
 }
 .masthead-title small {
-  font-size: 65%;
+  font-size: 75%;
   font-weight: 400;
   color: #c0c0c0;
   letter-spacing: 0;
@@ -369,7 +369,7 @@ tbody tr:nth-child(odd) th {
   margin-top: 0;
 }
 .related-posts li small {
-  font-size: 65%;
+  font-size: 75%;
   color: #999;
 }
 .related-posts li a:hover {

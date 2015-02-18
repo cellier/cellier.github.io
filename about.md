@@ -9,15 +9,16 @@ title: About
 
 我是cellier, 暂时大概是一条不正规的产品狗, 坐标上海.爱好是研究社交产品，期待能帮忙解决人类孤独问题...你可以在各种社交应用里通过cellier这个昵称找到我，下面是我长期使用的社交产品:
 
+* <a href="https://medium.com/@cellier" target="_blank"><i class="fa fa-medium"></i>&nbsp; Medium</a>
+* <a href="https://twitter.com/cellier_" target="_blank"><i class="fa fa-twitter"></i>&nbsp; Twitter</a>
+* <a href="https://www.behance.net/cellier" target="_blank"><i class="fa fa-behance"></i>&nbsp; Behance</a>
 * <a href="http://www.zhihu.com/people/cellier" target="_blank"> 知乎2013</a>
 * <a href="http://www.zhihu.com/people/cellier_" target="_blank">知乎2014</a>
 * <a href="http://www.douban.com/people/cellier/" target="_blank">豆瓣</a>
-* <a href="https://medium.com/@cellier" target="_blank"><i class="fa fa-medium"></i> Medium</a>
-* <a href="https://twitter.com/cellier_" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
 * <a href="http://i.ui.cn/ucenter/93343" target="_blank">UI中国</a>
-* <a href="https://www.behance.net/cellier" target="_blank"><i class="fa fa-behance"></i> Behance</a>
 
-如果想和我聊聊社交产品，你可以给我发邮件：<i class="fa fa-envelope-o"></i> [cellier@mail.com](mailto:cellier@mail.com)
+
+如果想和我聊聊社交产品，你可以给我发邮件：<a href="mailto:cellier@mail.com" target="_blank"><i class="fa fa-envelope-o"></i>&nbsp; cellier@mail.com</a>
 
 <br><br>
 

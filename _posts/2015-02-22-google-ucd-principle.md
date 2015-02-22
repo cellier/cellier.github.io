@@ -29,7 +29,7 @@ title: Google十大UCD原则
 
 <br>
 
-原文：[豆瓣](http://www.douban.com/group/topic/13636837/)  &amp;nbsp;  &amp;nbsp;  排版：[cellier](http://cellier.me)
+原文：[豆瓣](http://www.douban.com/group/topic/13636837/)  &nbsp; &nbsp;  排版：[cellier](http://cellier.me)
 
 
 

@@ -11,30 +11,17 @@
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}" href="/" target="_self"><i class="fa fa-home fa-fw"></i>&nbsp;&nbsp;&nbsp; Home</a>
     <a class="sidebar-nav-item{% if page.title == "Archive" %} active{% endif %}" href="/archive" target="_self"><i class="fa fa-archive fa-fw"></i>&nbsp;&nbsp;&nbsp; Archive</a>
-    <a class="sidebar-nav-item{% if page.title == "About" %} active{% endif %}" href="/about" target="_self"><i class="fa fa-user fa-fw"></i>&nbsp;&nbsp;&nbsp; About<!--{{ node.title }}--></a>
-
-    <!--{% comment %}
-      The code below dynamically generates a sidebar nav of pages with
-      `layout: page` in the front-matter. See readme for usage.
-    {% endcomment %}
-
-    {% assign pages_list = site.pages %}
-    {% for node in pages_list %}
-      {% if node.title != null %}
-        {% if node.layout == "page" %}
-          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}" target="_self"><i class="fa fa-user"></i>&nbsp;&nbsp;&nbsp; About<!-{{ node.title }}-></a>
-        {% endif %}
-      {% endif %}
-    {% endfor %}-->
+    <a class="sidebar-nav-item{% if page.title == "About" %} active{% endif %}" href="/about" target="_self"><i class="fa fa-user fa-fw"></i>&nbsp;&nbsp;&nbsp; About</a>
     <a class="sidebar-nav-item" href="http://cellier.me/resume" target="_self"><i class="fa fa-cog fa-spin fa-fw"></i>&nbsp;&nbsp;&nbsp; Resume</a>
-    <!--a class="sidebar-nav-item" href="Mailto:cellier@mail.com">Email</a-->
-
-
   </nav>
 
   <div class="sidebar-item">
+
+  <script type="text/javascript">document.write(unescape('%3Cdiv id="bdcs"%3E%3C/div%3E%3Cscript charset="utf-8" src="http://znsv.baidu.com/customer_search/api/js?sid=12669340322771312170') + '&plate_url=' + (encodeURIComponent(window.location.href)) + '&t=' + (Math.ceil(new Date()/3600000)) + unescape('"%3E%3C/script%3E'));</script>
+
     <p>
       &copy; {{ site.time | date: '%Y' }}. All rights reserved.
     </p>
+
   </div>
 </div>

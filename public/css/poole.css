@@ -48,9 +48,9 @@ body {
 }
 
 html {
-  font-family: 'Open Sans','Helvetica Neue', Helvetica, Tahoma, Arial, "Hiragino Sans GB", 'STXihei', "华文细黑", "Microsoft YaHei", "微软雅黑", 'SimSun', "宋体", 'Heiti', "黑体", sans-serif;
+  font-family: 'Open Sans','Helvetica Neue',Arial,'Noto Sans S Chinese','Hiragino Sans GB','Microsoft YaHei','WenQuanYi Micro Hei',sans-serif;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 2;
 }
 @media (min-width: 38em) {
   html {
@@ -84,7 +84,7 @@ a:focus {
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: bold;
-  line-height: 1.25;
+  line-height: 1.8;
   color: #313131;
   text-rendering: optimizeLegibility;
 }
@@ -168,7 +168,7 @@ pre {
   margin-bottom: 1rem;
   padding: 1rem;
   font-size: 0.80rem;
-  line-height: 1.4;
+  line-height: 1.8;
   white-space: pre;
   white-space: pre-wrap;
   word-break: break-all;
@@ -202,7 +202,7 @@ pre code {
 }
 .gist .gist-file .gist-data {
   font-size: 0.80rem !important;
-  line-height: 1.4;
+  line-height: 2;
 }
 .gist code {
   padding: 0;

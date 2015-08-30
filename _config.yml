@@ -15,7 +15,7 @@ author:
   name:           'cellier'
   email:          cellier@mail.com
 
-paginate:      5
+paginate:      10
 
 # Custom vars
 version:          0.0.3

@@ -1,0 +1,84 @@
+$c: #47a;
+$cd: darken($c, 30%);
+$crater: rgba(0,0,0,.1);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:before, :after {
+  content: '';
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  background: $cd;
+}
+
+.landscape {
+  position: relative;
+  height: 500px;
+  background: #222;
+  overflow: hidden;
+}
+
+
+/* Animation Setup */
+
+.layer {
+  position: absolute;
+  bottom: 0;
+  animation: 10s linear infinite alternate;
+}
+
+.l1 { z-index: 1; animation-name: l1; }
+.l2 { z-index: 2; animation-name: l2; }
+
+@keyframes l1 { 100% { transform: translate3d(-100px,0,0) } }
+@keyframes l2 { 100% { transform: translate3d(-200px,0,0) } }
+@keyframes l3 { 100% { transform: translate3d(-500px,0,0) } }
+
+
+/* Mountain Layer */
+
+.clients div {
+  border-radius: 8%;
+  transform: rotate(45deg);
+}
+
+.clients div {
+  position: absolute;
+}
+
+.l1 .clients div {
+  bottom: -350px;
+  width: 500px;
+  height: 500px;
+  background: lighten($cd, 5%);
+}
+
+.l2 .clients div {
+  bottom: -400px;
+  width: 500px;
+  height: 500px;
+  background: lighten($cd, 10%);
+}
+
+@for $i from 1 through 8 {
+  .l1 .clients div:nth-child(#{$i}) {
+    left: 400 * $i + -600px;
+  }
+}
+
+@for $i from 1 through 8 {
+  .l2 .clients div:nth-child(#{$i}) {
+    left: 400 * $i + -400px;
+  }
+}
+

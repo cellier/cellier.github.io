@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:before, :after {
+  content: '';
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  background: #FFFFFF;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Source Han Sans', 'Noto Sans CJK Sc', 'Microsoft Jhenghei', 'Microsoft YaHei', sans-serif;
+}
+
+.title{
+  text-align: center;
+  font-size: 14px;
+  margin: 80px 0px 0px 0px;
+  font-weight: 300;
+}
+p{
+  text-align: center;
+  font-size: 14px;
+  margin: 20px 0px 0px 0px;
+}
+
+.landscape {
+  position: relative;
+  height: 360px;
+  background: #FFF;
+  overflow: hidden;
+}
+
+
+/* Animation Setup */
+.layer {
+  position: absolute;
+  bottom: 200px;
+  -webkit-animation: 15s linear infinite alternate;
+          animation: 15s linear infinite alternate;
+}
+
+.l1 {
+  z-index: 1;
+  -webkit-animation-name: l1;
+          animation-name: l1;
+}
+
+.l2 {
+  z-index: 2;
+  -webkit-animation-name: l2;
+          animation-name: l2;
+}
+
+@-webkit-keyframes l1 {
+  100% {
+    -webkit-transform: translate3d(-100px, 0, 0);
+            transform: translate3d(-100px, 0, 0);
+  }
+}
+
+@keyframes l1 {
+  100% {
+    -webkit-transform: translate3d(-100px, 0, 0);
+            transform: translate3d(-100px, 0, 0);
+  }
+}
+@-webkit-keyframes l2 {
+  100% {
+    -webkit-transform: translate3d(-200px, 0, 0);
+            transform: translate3d(-200px, 0, 0);
+  }
+}
+@keyframes l2 {
+  100% {
+    -webkit-transform: translate3d(-200px, 0, 0);
+            transform: translate3d(-200px, 0, 0);
+  }
+}
+
+/* Clients Layer */
+.clients div {
+  border-radius: 0%;
+}
+
+.clients div {
+  position: absolute;
+}
+
+.l1 .clients div {
+  width: 228px;
+  height: 90px;
+  background: gray;
+  -webkit-transform:translate(0px,-110px);
+  -moz-transform:translate(0px,-110px);
+}
+
+.l2 .clients div {
+  width: 228px;
+  height: 90px;
+  background: black;
+}
+
+.l1 .clients div:nth-child(1) {
+  left: 0px;
+}
+
+.l1 .clients div:nth-child(2) {
+  left: 250px;
+}
+
+.l1 .clients div:nth-child(3) {
+  left: 500px;
+}
+
+.l1 .clients div:nth-child(4) {
+  left: 750px;
+}
+
+.l1 .clients div:nth-child(5) {
+  left: 1000px;
+}
+
+.l1 .clients div:nth-child(6) {
+  left: 1250px;
+}
+
+.l1 .clients div:nth-child(7) {
+  left: 1500px;
+}
+
+.l1 .clients div:nth-child(8) {
+  left: 1750px;
+}
+
+.l1 .clients div:nth-child(9) {
+  left: 2000px;
+}
+
+.l1 .clients div:nth-child(10) {
+  left: 2250px;
+}
+
+.l1 .clients div:nth-child(11) {
+  left: 2500px;
+}
+
+
+.l1 .clients div:nth-child(12) {
+  left: 2750px;
+}
+
+.l1 .clients div:nth-child(13) {
+  left: 3000px;
+}
+
+.l1 .clients div:nth-child(14) {
+  left: 3250px;
+}
+
+.l1 .clients div:nth-child(15) {
+  left: 3500px;
+}
+
+.l1 .clients div:nth-child(16) {
+  left: 3750px;
+}
+
+.l1 .clients div:nth-child(17) {
+  left: 4000px;
+}
+
+.l1 .clients div:nth-child(18) {
+  left: 4250px;
+}
+
+.l1 .clients div:nth-child(19) {
+  left: 4500px;
+}
+
+
+.l1 .clients div:nth-child(20) {
+  left: 4750px;
+}
+
+
+.l2 .clients div:nth-child(0) {
+  left: 0px;
+}
+
+.l2 .clients div:nth-child(1) {
+  left: 250px;
+}
+
+.l2 .clients div:nth-child(2) {
+  left: 500px;
+}
+
+.l2 .clients div:nth-child(3) {
+  left: 750px;
+}
+
+.l2 .clients div:nth-child(4) {
+  left: 1000px;
+}
+
+.l2 .clients div:nth-child(5) {
+  left: 1600px;
+}
+
+.l2 .clients div:nth-child(6) {
+  left: 1250px;
+}
+
+.l2 .clients div:nth-child(7) {
+  left: 1500px;
+}
+
+.l2 .clients div:nth-child(8) {
+  left: 1750px;
+}
+
+.l2 .clients div:nth-child(9) {
+  left: 2000px;
+}
+
+.l2 .clients div:nth-child(10) {
+  left: 2250px;
+}
+
+.l2 .clients div:nth-child(11) {
+  left: 2500px;
+}
+
+.l2 .clients div:nth-child(12) {
+  left: 2750px;
+}
+
+.l2 .clients div:nth-child(13) {
+  left: 3000px;
+}
+
+.l2 .clients div:nth-child(14) {
+  left: 3250px;
+}
+
+.l2 .clients div:nth-child(15) {
+  left: 3500px;
+}
+
+.l2 .clients div:nth-child(16) {
+  left: 3750px;
+}
+
+.l2 .clients div:nth-child(17) {
+  left: 4000px;
+}
+
+.l2 .clients div:nth-child(18) {
+  left: 4250px;
+}
+
+.l2 .clients div:nth-child(19) {
+  left: 4500px;
+}

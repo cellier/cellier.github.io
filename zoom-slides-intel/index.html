@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="color-scheme" content="dark light" />
+<meta name="description" content="Zoom Slides Strategic Intelligence — AI 演示与协作办公市场周报，2026 年 10 月 12–18 日。" />
+<title>Slides Intelligence — Week 42 / 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0d1018;--bg2:#141924;--panel:#191e29;--line:rgba(248,247,239,.14);--muted:#a2a9b7;--white:#f7f6ef;--acid:#dbff81;--orange:#f7aa89;--blue:#a9c5ff;--lilac:#c4aff8;--teal:#92d9d5;--text:#efefe9;--paper:#eeece4;--black:#151924;--radius:19px}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:'DM Sans','Noto Sans SC',system-ui,sans-serif;font-size:15px;line-height:1.65;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+button{font:inherit;cursor:pointer}
+button:focus-visible,a:focus-visible{outline:2px solid var(--acid);outline-offset:4px}
+::selection{background:var(--acid);color:var(--black)}
+
+body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:19;opacity:.11;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 160 160' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.5' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.2'/%3E%3C/svg%3E")}
+
+.mono{font-family:'DM Mono',monospace;letter-spacing:.07em;text-transform:uppercase;font-size:11px}
+.eyebrow{color:var(--acid);display:flex;align-items:center;gap:11px}
+.eyebrow:before{content:"";display:inline-block;width:18px;height:2px;background:currentColor}
+.wrap{max-width:1480px;margin:0 auto;padding:0 5vw}
+.divider{border-top:1px solid var(--line)}
+
+nav{position:fixed;z-index:50;top:0;width:100%;height:74px;background:rgba(13,16,24,.79);border-bottom:1px solid var(--line);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}
+.navinner{display:flex;align-items:center;justify-content:space-between;height:100%;gap:28px}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:-.035em;font-size:18px;white-space:nowrap}
+.symbol{width:30px;height:30px;position:relative}
+.symbol i{position:absolute;display:block;border:2px solid var(--acid);width:15px;height:15px;border-radius:50%;left:0;top:0}
+.symbol i:nth-child(2){left:12px;top:5px}
+.symbol i:nth-child(3){left:6px;top:16px}
+.navlinks{display:flex;align-items:center;gap:31px}
+.navlinks a{font-size:12px;color:#c5c9d2;transition:color .2s}
+.navlinks a:hover{color:var(--acid)}
+.navright{display:flex;align-items:center;gap:11px}
+.edition{border:1px solid var(--line);border-radius:999px;padding:8px 14px;color:var(--acid)}
+.iconbtn{height:33px;width:33px;border:1px solid var(--line);border-radius:50%;color:var(--text);background:transparent;display:grid;place-items:center;transition:all .2s}
+.iconbtn:hover{background:var(--acid);color:var(--black)}
+#progress{height:2px;background:var(--acid);position:absolute;bottom:-1px;left:0;width:0;box-shadow:0 0 14px var(--acid)}
+
+.hero{position:relative;min-height:770px;overflow:hidden;padding-top:154px;padding-bottom:80px}
+.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 83% 50%,rgba(91,106,128,.19),transparent 47%),linear-gradient(90deg,transparent 0 49.9%,rgba(255,255,255,.042) 50%,transparent 50.1%);pointer-events:none}
+.hero:after{content:"";position:absolute;right:-10%;top:10%;width:900px;height:650px;opacity:.24;pointer-events:none;background:repeating-linear-gradient(0deg,transparent 0 49px,rgba(255,255,255,.09) 50px),repeating-linear-gradient(90deg,transparent 0 49px,rgba(255,255,255,.09) 50px);mask-image:radial-gradient(circle,#000,transparent 67%)}
+
+.hero-grid{display:grid;grid-template-columns:1.04fr .96fr;align-items:center;gap:2vw;position:relative;z-index:2}
+.hero h1{font-family:'DM Sans','Noto Sans SC',sans-serif;font-size:clamp(64px,8.1vw,129px);line-height:.91;margin:42px 0 25px;font-weight:700;letter-spacing:-.088em}
+.hero h1 span{display:block}
+.hero h1 em{font-style:normal;color:var(--acid)}
+.hero-sub{font-size:clamp(18px,2vw,27px);font-weight:600;letter-spacing:-.04em;margin:20px 0 10px}
+.hero-desc{max-width:550px;color:var(--muted);font-size:15px;margin:18px 0 34px;line-height:1.95}
+.hero-cta{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.pill{border-radius:999px;display:inline-flex;gap:12px;align-items:center;justify-content:center;padding:13px 20px;border:1px solid rgba(255,255,255,.25);font-weight:600;font-size:13px;transition:all .3s}
+.pill.primary{background:var(--acid);border-color:var(--acid);color:var(--black)}
+.pill.primary:hover{box-shadow:0 0 32px rgba(219,255,129,.25);transform:translateY(-2px)}
+.pill.ghost:hover{border-color:var(--acid);color:var(--acid)}
+.hero-bottom{margin-top:92px;display:flex;align-items:center;gap:40px;color:#afb4bd;font-size:11px}
+.hero-bottom strong{color:var(--text);font-weight:600}
+.dot{display:inline-block;width:7px;height:7px;background:var(--acid);border-radius:50%;box-shadow:0 0 10px rgba(219,255,129,.8);margin-right:8px}
+
+.viz{height:590px;width:100%;position:relative;perspective:800px}
+.radar{position:absolute;width:520px;height:520px;left:50%;top:50%;transform:translate(-50%,-50%);border:1px solid rgba(219,255,129,.25);border-radius:50%;background:radial-gradient(circle at center,rgba(219,255,129,.06) 0,transparent 40%),repeating-radial-gradient(circle at center,transparent 0 66px,rgba(219,255,129,.13) 67px,transparent 68px)}
+.radar:before,.radar:after{content:"";position:absolute;inset:9%;border:1px dashed rgba(219,255,129,.18);border-radius:50%}
+.radar:after{inset:26%;border-style:solid}
+.scan{position:absolute;inset:0;border-radius:50%;background:conic-gradient(from 0deg,transparent 0 285deg,rgba(219,255,129,.08) 312deg,rgba(219,255,129,.19) 355deg,transparent 360deg);animation:spin 20s linear infinite}
+.scan:after{content:"";position:absolute;height:1px;background:linear-gradient(to right,var(--acid),transparent);width:48%;top:50%;left:50%;transform-origin:left center}
+.radar-cross{position:absolute;inset:0;display:grid;place-items:center;color:var(--acid);font-size:13px}
+.radar-cross:before,.radar-cross:after{content:"";position:absolute;width:100%;height:1px;background:rgba(219,255,129,.12)}
+.radar-cross:after{transform:rotate(90deg)}
+
+.float-card{position:absolute;z-index:2;border:1px solid rgba(255,255,255,.22);border-radius:14px;background:rgba(29,35,46,.91);backdrop-filter:blur(15px);box-shadow:0 25px 90px rgba(0,0,0,.25);padding:16px 18px;animation:float 6s ease-in-out infinite;transform-origin:center}
+.float-card .meta{display:flex;align-items:center;justify-content:space-between;color:#b1bbcb;font-size:10px;letter-spacing:.04em}
+.float-card .title{font-weight:700;font-size:14px;margin-top:10px}
+.card-meeting{width:246px;top:38px;left:5%;transform:rotate(-5deg)}
+.card-agent{width:220px;top:194px;right:-1%;border-color:rgba(219,255,129,.5);animation-delay:-1.8s}
+.card-slides{width:263px;bottom:24px;left:11%;animation-delay:-3.1s;transform:rotate(4deg)}
+.wave{margin-top:14px;height:29px;display:flex;gap:3px;align-items:center}
+.wave b{width:4px;height:calc(5px + var(--i)*2px);border-radius:3px;background:var(--teal);opacity:.8}
+.spark{display:grid;grid-template-columns:repeat(4,1fr);gap:5px;margin-top:14px}
+.spark span{height:24px;background:rgba(219,255,129,.09);border-radius:5px}
+.spark span:nth-child(2){background:rgba(219,255,129,.65)}
+.slide-preview{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-top:12px}
+.slide-preview div{height:43px;border-radius:4px;background:#343d49;padding:8px}
+.slide-preview div:before{content:"";display:block;width:65%;height:5px;background:var(--acid);margin-bottom:5px}
+.slide-preview div:after{content:"";display:block;width:85%;height:3px;background:#8a92a1}
+.hero-ticker{position:relative;z-index:5;border-top:1px solid var(--line);border-bottom:1px solid var(--line);overflow:hidden;background:#141923}
+.ticker-track{display:flex;gap:64px;width:max-content;padding:17px 0;animation:marquee 33s linear infinite;color:#aaafba}
+.ticker-track strong{color:var(--acid);font-weight:400}
+
+.section{padding:108px 0}
+.sectionhead{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:36px}
+.kicker{font-family:'DM Mono',monospace;color:var(--acid);font-size:11px;letter-spacing:.09em}
+.sectionhead h2{font-size:clamp(34px,4vw,62px);font-weight:700;letter-spacing:-.07em;line-height:1.13;margin:13px 0 0}
+.sectionnote{max-width:370px;color:var(--muted);font-size:13px;line-height:1.8}
+.num{font-size:11px;color:#808998;letter-spacing:.1em}
+
+.thesis{background:var(--paper);color:var(--black);padding:92px 0 95px;position:relative;overflow:hidden}
+.thesis .kicker{color:#576b27}
+.thesis .sectionhead h2{font-size:clamp(43px,5vw,80px);letter-spacing:-.08em;max-width:760px}
+.thesis .sectionnote{color:#606875}
+.thesis-main{display:grid;grid-template-columns:1.55fr .45fr;gap:60px;align-items:end}
+.thesis-line{font-size:clamp(25px,3.15vw,45px);font-weight:700;letter-spacing:-.065em;line-height:1.4;margin:0;max-width:950px}
+.thesis-line em{font-style:normal;background:#ccdfad;padding:0 8px;box-shadow:0 0 0 2px #ccdfad}
+.thesis-stamp{width:172px;height:172px;border:2px solid #222;border-radius:50%;display:flex;align-items:center;justify-content:center;transform:rotate(13deg);text-align:center;font-size:12px;font-weight:700;letter-spacing:.09em;justify-self:end}
+.thesis-stamp:before{content:"✳";font-size:38px;display:block;position:absolute;top:22px}
+.thesis-stamp span{margin-top:60px}
+.metrics{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid rgba(0,0,0,.15);margin-top:76px}
+.metric{padding:33px 0 0 28px;border-left:1px solid rgba(0,0,0,.16)}
+.metric:first-child{border-left:0;padding-left:0}
+.metric strong{display:block;font-size:63px;line-height:1;letter-spacing:-.09em}
+.metric small{font-size:11px;font-family:'DM Mono',monospace;color:#5f6871}
+.metric p{font-size:14px;color:#515a63;margin:11px 0 0}
+
+.filters{display:flex;gap:8px;flex-wrap:wrap}
+.filter{background:transparent;border:1px solid var(--line);border-radius:999px;padding:9px 15px;color:#abb3c0;font-size:12px;transition:.2s}
+.filter.active,.filter:hover{background:var(--acid);border-color:var(--acid);color:var(--black)}
+.story-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}
+.story{position:relative;min-height:460px;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:30px;overflow:hidden;display:flex;flex-direction:column;transition:transform .25s,border-color .25s}
+.story:hover{transform:translateY(-4px);border-color:rgba(219,255,129,.44)}
+.story:first-child{grid-column:span 7}
+.story:nth-child(2){grid-column:span 5}
+.story:nth-child(3){grid-column:span 12;min-height:270px;display:grid;grid-template-columns:1.1fr .9fr;gap:20px}
+.story.hide{display:none}
+.story-top{display:flex;justify-content:space-between;gap:12px;align-items:center}
+.badge{font-size:10px;border:1px solid rgba(219,255,129,.3);color:var(--acid);border-radius:50px;padding:6px 11px;letter-spacing:.03em}
+.badge.blue{color:var(--blue);border-color:rgba(169,197,255,.3)}
+.badge.orange{color:var(--orange);border-color:rgba(247,170,137,.3)}
+.story h3{font-size:clamp(25px,2.45vw,38px);line-height:1.2;letter-spacing:-.055em;margin:26px 0 15px;max-width:570px}
+.story .sub{font-size:14px;color:#aeb4c0;max-width:520px;line-height:1.85}
+.story-art{height:150px;position:relative;margin:12px 0;flex:1;min-height:85px}
+.story-bottom{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-top:auto;border-top:1px solid var(--line);padding-top:19px}
+.story-bottom span{color:#a5adbb;font-size:11px}
+.story-open{border:none;background:none;color:var(--acid);font-weight:700;font-size:12px;display:inline-flex;align-items:center;gap:8px}
+.story-open:hover{gap:15px}
+.story:nth-child(3) .story-art{height:210px;margin:0}
+.story:nth-child(3) .story-bottom{grid-column:1/-1}
+
+.art-flow{position:absolute;inset:8px 0;display:flex;justify-content:center;align-items:center;gap:8px}
+.node-art{border:1px solid rgba(255,255,255,.2);background:#242d39;width:25%;max-width:140px;height:110px;border-radius:12px;padding:12px;position:relative}
+.node-art.active{border-color:var(--acid);box-shadow:0 0 40px rgba(219,255,129,.07)}
+.node-art svg{width:27px;height:27px;stroke:var(--acid);fill:none;stroke-width:1.3}
+.node-art label{display:block;color:#bec7d1;font-size:10px;line-height:1.5;margin-top:17px}
+.arrow-art{color:var(--acid)}
+.orb-art{position:absolute;width:175px;height:175px;left:50%;top:50%;transform:translate(-50%,-50%);border:1px solid rgba(169,197,255,.3);border-radius:50%;box-shadow:0 0 90px rgba(169,197,255,.1),inset 0 0 50px rgba(169,197,255,.06)}
+.orb-art:before,.orb-art:after{content:"";position:absolute;border:1px solid var(--blue);border-radius:50%;inset:21px;transform:rotateX(72deg) rotate(20deg);animation:spin 11s linear infinite}
+.orb-art:after{transform:rotateY(73deg) rotate(35deg);inset:5px;border-color:var(--lilac);animation-direction:reverse}
+.orb-art span{position:absolute;inset:0;display:grid;place-items:center;color:var(--blue);font-family:'DM Mono';font-size:16px;letter-spacing:-.05em}
+.reg-art{display:flex;align-items:end;gap:7px;justify-content:center;min-height:200px}
+.reg-art .bar{background:linear-gradient(to top,rgba(247,170,137,.22),rgba(247,170,137,.66));border:1px solid rgba(247,170,137,.38);width:27px;transform:skewY(-10deg)}
+.reg-art .bar:nth-child(1){height:75px}
+.reg-art .bar:nth-child(2){height:116px}
+.reg-art .bar:nth-child(3){height:164px}
+.reg-art .bar:nth-child(4){height:132px}
+.reg-art .bar:nth-child(5){height:195px}
+.reg-art .bar:nth-child(6){height:110px}
+.reg-art .bar:nth-child(7){height:65px}
+
+.state-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:20px 0 12px}
+.state{display:flex;align-items:center;gap:9px;color:#a9b0be;font-size:11px}
+.state b{width:7px;height:7px;display:inline-block;border-radius:100%;background:var(--acid)}
+.state:nth-child(2) b{background:var(--blue)}
+.state:nth-child(3) b{background:var(--orange)}
+
+.mapsec{background:#111722;overflow:hidden}
+.map-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.quadrant{position:relative;aspect-ratio:1.35;background:linear-gradient(90deg,transparent calc(50% - .5px),rgba(255,255,255,.22) 50%,transparent calc(50% + .5px)),linear-gradient(0deg,transparent calc(50% - .5px),rgba(255,255,255,.22) 50%,transparent calc(50% + .5px)),radial-gradient(ellipse at 70% 40%,rgba(219,255,129,.05),transparent 65%);border:1px solid var(--line);border-radius:18px;margin:35px 0 35px 30px}
+.quadrant:before{content:"";position:absolute;inset:20px;border:1px dashed rgba(255,255,255,.07)}
+.axis{position:absolute;font:10px 'DM Mono',monospace;color:#848c9b;text-transform:uppercase}
+.axis.top{top:-28px;left:45%}
+.axis.bottom{bottom:-29px;left:40%}
+.axis.left{top:50%;left:-74px;transform:rotate(-90deg)}
+.axis.right{top:50%;right:-52px;transform:rotate(90deg)}
+.point{position:absolute;display:flex;gap:7px;align-items:center;transform:translate(-50%,-50%);font-size:12px;font-weight:600;cursor:pointer;padding:6px 9px;border-radius:999px;white-space:nowrap;border:1px solid rgba(255,255,255,.2);background:rgba(17,23,34,.93);transition:transform .2s,border-color .2s;z-index:2}
+.point i{width:8px;height:8px;border-radius:50%;background:var(--pc)}
+.point:hover,.point:focus{transform:translate(-50%,-50%) scale(1.13);border-color:var(--pc)}
+.point[data-name="Zoom Slides"]{border-color:var(--acid);box-shadow:0 0 25px rgba(219,255,129,.18)}
+.map-copy h3{font-size:clamp(30px,3.5vw,51px);line-height:1.17;letter-spacing:-.06em;margin:0 0 26px}
+.map-copy p{color:#aab2bf;line-height:1.95}
+.map-insight{padding:19px 23px;border-left:2px solid var(--acid);margin-top:28px;background:rgba(219,255,129,.035)}
+.map-insight strong{display:block;color:var(--acid);font-size:12px;margin-bottom:6px}
+.map-insight p{margin:0;color:#e4e7e0;font-size:14px}
+.map-caveat{color:#828a98;font-size:11px;margin-top:22px}
+.competitor-tabs{display:flex;flex-wrap:wrap;gap:9px;margin-top:28px}
+.competitor-tabs button{border:1px solid var(--line);background:transparent;color:#aeb5c0;border-radius:10px;padding:10px 13px;font-size:12px}
+.competitor-tabs button.active,.competitor-tabs button:hover{color:var(--acid);border-color:var(--acid)}
+
+.flow-section{background:var(--paper);color:var(--black);padding-bottom:112px}
+.flow-section .kicker{color:#587223}
+.flow-section .sectionhead h2{max-width:740px}
+.flow-section .sectionnote{color:#73777c}
+.flow-visual{height:350px;background:#151b24;border-radius:23px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:space-around;gap:0;padding:40px;color:var(--white)}
+.flow-visual:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 50% 50%,rgba(219,255,129,.09),transparent 52%),repeating-linear-gradient(90deg,transparent 0 99px,rgba(255,255,255,.025) 100px)}
+.flow-segment{position:relative;z-index:1;display:flex;align-items:center;flex-direction:column;gap:15px;flex:1;cursor:pointer;border:0;background:none;color:#858f9c;transition:color .2s;padding:7px}
+.flow-segment:focus-visible{outline:2px solid var(--acid)}
+.flow-segment .glyph{height:92px;width:92px;border-radius:22px;background:#232d39;border:1px solid rgba(255,255,255,.12);display:grid;place-items:center;color:#9ca8b7;font-size:43px;font-weight:200;transition:.3s}
+.flow-segment.active .glyph,.flow-segment:hover .glyph{background:var(--acid);color:#171c23;transform:translateY(-7px);box-shadow:0 10px 30px rgba(219,255,129,.16)}
+.flow-segment.active{color:var(--acid)}
+.flow-segment span{font-size:11px;font-family:'DM Mono',monospace}
+.flow-line{width:30px;height:1px;flex:0 0 3%;background:linear-gradient(90deg,transparent,var(--acid),transparent)}
+.flow-info{background:white;border:1px solid rgba(0,0,0,.11);padding:25px 29px;border-radius:0 0 17px 17px;display:grid;grid-template-columns:200px 1fr;gap:25px;align-items:center}
+.flow-info .flow-label{font-size:13px;color:#65721c;font-weight:700}
+.flow-info h3{margin:0;font-size:23px;letter-spacing:-.04em}
+.flow-info p{margin:0;font-size:14px;color:#4e5660;line-height:1.85}
+
+.strategy{padding:110px 0}
+.strategy-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+.strat{border-radius:18px;padding:28px;min-height:480px;position:relative;border:1px solid var(--line);display:flex;flex-direction:column}
+.strat.now{background:var(--acid);color:#131820}
+.strat.next{background:#253143}
+.strat.watch{background:#221f2d}
+.strat small{font:11px 'DM Mono';letter-spacing:.08em}
+.strat h3{font-size:61px;line-height:1;letter-spacing:-.08em;margin:20px 0 25px}
+.strat ol{margin:0;padding:0;list-style:none;counter-reset:step}
+.strat li{counter-increment:step;border-top:1px solid currentColor;padding:18px 0;display:flex;gap:14px;font-size:14px;font-weight:600}
+.strat li:before{content:'0' counter(step);font:11px 'DM Mono';opacity:.58;margin-top:5px}
+.strat .foot{margin-top:auto;border-top:1px solid currentColor;padding-top:15px;font-size:11px;opacity:.7}
+.strategy-note{margin-top:25px;display:flex;gap:12px;align-items:flex-start;border:1px solid var(--line);border-radius:12px;padding:19px 24px;background:#151b24}
+.strategy-note strong{color:var(--acid);font-size:12px;white-space:nowrap}
+.strategy-note span{font-size:13px;color:#a9b2c0}
+
+.compare{background:#171c27;padding:95px 0}
+.compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.week{border:1px solid var(--line);border-radius:20px;padding:29px;background:rgba(255,255,255,.02)}
+.week.active{border-color:rgba(219,255,129,.45);background:rgba(219,255,129,.03)}
+.week .mono{color:#9ca6b5}
+.week h3{font-size:38px;letter-spacing:-.065em;margin:15px 0 20px}
+.week ul{margin:0;padding:0;list-style:none}
+.week li{padding:15px 0;border-top:1px solid var(--line);display:flex;gap:15px;font-size:14px;color:#c7cbd2}
+.week li i{font-style:normal;color:var(--acid)}
+.week.active h3{color:var(--acid)}
+
+.sources{padding:90px 0}
+.source-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:11px}
+.source{border:1px solid var(--line);border-radius:12px;padding:19px;display:flex;flex-direction:column;min-height:180px;transition:.2s}
+.source:hover{background:#202735;border-color:var(--acid)}
+.source .mono{color:var(--acid);font-size:10px}
+.source strong{margin:19px 0 auto;font-size:15px;letter-spacing:-.02em;line-height:1.45}
+.source span:last-child{font-size:11px;color:#aeb5c0;margin-top:15px}
+.disclaimer{margin-top:30px;font-size:11px;color:#858e9d;line-height:1.85;max-width:900px}
+
+footer{background:var(--acid);color:var(--black);padding:64px 0 28px}
+.footer-grid{display:flex;justify-content:space-between;gap:30px;align-items:flex-end}
+.footer-title{font-size:clamp(48px,7vw,105px);letter-spacing:-.09em;line-height:.9;margin:10px 0 20px;font-weight:800}
+.footer-small{font-size:12px;font-weight:600}
+.footer-right{text-align:right}
+.footer-right .mono{color:#30382a}
+.footer-buttons{display:flex;gap:10px;justify-content:flex-end;margin-top:24px}
+.footer-buttons button,.footer-buttons a{border:1px solid #151a22;border-radius:999px;padding:11px 16px;background:transparent;color:#151a22;font-size:12px;font-weight:700}
+.footer-buttons button:hover,.footer-buttons a:hover{background:#151a22;color:var(--acid)}
+.footline{border-top:1px solid rgba(0,0,0,.2);margin-top:50px;padding-top:20px;display:flex;justify-content:space-between;gap:15px;font-size:11px;color:#475039}
+
+.modal{position:fixed;z-index:200;inset:0;display:none;align-items:center;justify-content:center;background:rgba(5,8,14,.8);backdrop-filter:blur(10px);padding:25px}
+.modal.open{display:flex}
+.modal-panel{background:#f2f0e9;color:#1d222b;max-width:800px;width:100%;max-height:90vh;overflow-y:auto;border-radius:22px;position:relative;box-shadow:0 30px 120px rgba(0,0,0,.45)}
+.modal-head{padding:45px 50px 20px;border-bottom:1px solid #d8d6d0}
+.modal-head .mono{color:#587320}
+.modal-head h2{font-size:clamp(30px,4vw,47px);line-height:1.2;letter-spacing:-.065em;margin:15px 0}
+.modal-close{position:sticky;float:right;top:15px;margin:15px 15px 0 0;border:none;border-radius:50%;background:#151b24;color:#fff;width:37px;height:37px;z-index:2}
+.modal-body{padding:20px 50px 44px}
+.modal-body h3{font-size:13px;color:#536823;font-family:'DM Mono';letter-spacing:.06em;margin:27px 0 7px}
+.modal-body p,.modal-body li{font-size:14px;line-height:1.94;color:#454e58}
+.modal-body ul{padding-left:20px}
+.modal-body .takeaway{background:#dce5cb;padding:22px;border-radius:13px;font-weight:700;font-size:16px;line-height:1.75;margin:20px 0}
+.modal-body a{color:#3d6522;text-decoration:underline}
+.modal-body .micro{font-size:12px;color:#64717a}
+
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .8s ease,transform .8s ease}
+.reveal.visible{opacity:1;transform:translateY(0)}
+#toast{position:fixed;bottom:27px;left:50%;transform:translate(-50%,30px);opacity:0;pointer-events:none;background:var(--acid);color:var(--black);padding:12px 22px;border-radius:100px;z-index:300;font-size:12px;font-weight:700;transition:.3s}
+#toast.show{transform:translate(-50%,0);opacity:1}
+
+body.light{--bg:#eaece7;--bg2:#f7f7f1;--panel:#f8f9f4;--line:rgba(35,44,59,.15);--muted:#626d79;--white:#151b24;--text:#242b32}
+body.light nav{background:rgba(234,236,231,.85)}
+body.light .hero{background:#eaece7}
+body.light .hero h1{color:#171e27}
+body.light .hero-desc{color:#5d6973}
+body.light .hero-bottom strong{color:#101620}
+body.light .float-card{background:rgba(245,247,238,.92);color:#101922}
+body.light .float-card .meta,body.light .float-card .title{color:#2f3848}
+body.light .hero-ticker,body.light .mapsec,body.light .compare,body.light .strategy-note{background:#e1e5e2}
+body.light .story,.light .week{color:#151d29}
+body.light .story .sub,.light .map-copy p,.light .week li,.light .sectionnote,.light .story-bottom span{color:#53616d}
+body.light .quadrant{background-color:#edf0e9}
+body.light .point{background:#e5eae6;color:#172027}
+body.light .source strong,body.light .strat:not(.now){color:#f7f6ef}
+body.light .source:hover{background:#dce2d9}
+body.light .source strong{color:#151d28}
+body.light footer{color:#131920}
+
+@keyframes float{0%,100%{translate:0 0}
+50%{translate:0 -14px}
+}
+@keyframes spin{to{rotate:360deg}
+}
+@keyframes marquee{to{transform:translateX(-50%)}
+}
+
+@media(max-width:1100px){.navlinks{gap:15px}
+.hero-grid{grid-template-columns:1fr 1fr}
+.radar{width:400px;height:400px}
+.viz{height:470px}
+.card-meeting{left:0}
+.card-agent{right:0}
+.card-slides{bottom:0}
+.hero h1{font-size:clamp(62px,7vw,100px)}
+.story-grid{gap:12px}
+.story h3{font-size:29px}
+}
+
+@media(max-width:780px){.wrap{padding:0 21px}
+.navlinks{display:none}
+nav{height:64px}
+.edition{padding:6px 9px;font-size:10px}
+.hero{padding-top:120px;padding-bottom:43px;min-height:0}
+.hero-grid{grid-template-columns:1fr}
+.hero h1{font-size:clamp(64px,14vw,106px);margin:28px 0 22px}
+.hero-desc{font-size:14px}
+.hero-bottom{margin-top:38px;gap:16px;flex-wrap:wrap}
+.viz{height:430px;margin-top:16px}
+.radar{width:360px;height:360px}
+.card-meeting{top:22px;left:1%;width:220px}
+.card-agent{top:152px;right:0;width:195px}
+.card-slides{bottom:0;left:8%;width:219px}
+.section{padding:74px 0}
+.sectionhead{display:block}
+.sectionnote{margin-top:15px}
+.thesis{padding:70px 0}
+.thesis-main{grid-template-columns:1fr}
+.thesis-stamp{display:none}
+.metrics{margin-top:40px}
+.metric{padding:25px 10px 0}
+.metric strong{font-size:47px}
+.metric p{font-size:12px}
+.story-grid{display:grid;grid-template-columns:1fr}
+.story,.story:first-child,.story:nth-child(2),.story:nth-child(3){grid-column:1;display:flex;min-height:430px}
+.story:nth-child(3) .story-art{height:180px;margin-bottom:20px}
+.map-grid{grid-template-columns:1fr}
+.quadrant{margin:38px 40px 45px 46px}
+.flow-visual{height:auto;min-height:290px;padding:18px 12px;flex-wrap:wrap}
+.flow-segment{min-width:25%;flex:1 1 24%;padding:6px}
+.flow-segment .glyph{width:62px;height:62px;font-size:30px;border-radius:15px}
+.flow-line{display:none}
+.flow-info{grid-template-columns:1fr;gap:5px}
+.strategy-cards{grid-template-columns:1fr}
+.strat{min-height:380px}
+.compare-grid{grid-template-columns:1fr}
+.source-grid{grid-template-columns:1fr 1fr}
+.footer-grid{display:block}
+.footer-right{text-align:left;margin-top:38px}
+.footer-buttons{justify-content:flex-start}
+.footline{display:block}
+.modal{padding:10px}
+.modal-head{padding:32px 25px 18px}
+.modal-body{padding:22px 25px 38px}
+}
+
+@media(max-width:450px){.brand{font-size:15px}
+.brand .symbol{transform:scale(.85)}
+.navright{gap:5px}
+.hero h1{font-size:60px}
+.hero-sub{font-size:18px}
+.radar{width:290px;height:290px}
+.viz{height:370px}
+.card-meeting{width:196px;left:-5px;top:8px}
+.card-agent{width:176px;right:-5px;top:132px}
+.card-slides{width:203px;bottom:-3px}
+.metrics{grid-template-columns:1fr}
+.metric,.metric:first-child{border-left:none;border-top:1px solid rgba(0,0,0,.15);padding:17px 0}
+.metric strong{font-size:48px}
+.flow-segment{flex-basis:30%}
+.source-grid{grid-template-columns:1fr}
+.state-strip{grid-template-columns:1fr}
+.story{padding:23px}
+.story h3{font-size:28px}
+}
+
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important;transition:none!important}
+.reveal{opacity:1;transform:none}
+}
+
+@media print{nav,.hero-ticker,.hero-cta,.story-open,.iconbtn,.footer-buttons,.modal{display:none!important}
+body{background:#fff!important;color:#111!important}
+.hero{min-height:0;padding-top:30px}
+.viz{display:none}
+.reveal{opacity:1;transform:none}
+.section,.thesis,.mapsec,.compare,.strategy,.sources{break-inside:avoid;padding:35px 0}
+.story,.strat{break-inside:avoid}
+.wrap{max-width:none}
+.source-grid{grid-template-columns:repeat(4,1fr)}
+}
+
+</style>
+</head>
+<body>
+<nav><div class="wrap navinner"><a href="#top" class="brand" aria-label="返回顶部"><span class="symbol"><i></i><i></i><i></i></span>SLIDES<span style="font-weight:400;opacity:.65">/</span>INTELLIGENCE</a><div class="navlinks"><a href="#signals">本周情报</a><a href="#landscape">竞争格局</a><a href="#workflow">工作流</a><a href="#action">战略行动</a><a href="#sources">资料来源</a></div><div class="navright"><span class="edition mono">W42 · 2026</span><button class="iconbtn" id="themeBtn" aria-label="切换明暗主题" title="切换主题">◐</button></div></div><div id="progress"></div></nav>
+<main id="top">
+<section class="hero"><div class="wrap hero-grid"><div class="hero-copy"><div class="eyebrow mono">ZOOM SLIDES · STRATEGIC INTELLIGENCE / No. 02</div><h1>THE NEXT<br><em>SLIDE</em><br>IS A<br>WORKFLOW<span style="display:inline;color:var(--orange)">.</span></h1><p class="hero-sub">AI 演示的下一场竞争，不在空白画布。</p><p class="hero-desc">从会议上下文到 Agent 执行，从原生编辑到业务交付。我们过滤噪声，只追踪真正可能改变 Zoom Slides 产品判断的市场信号。</p><div class="hero-cta"><a href="#signals" class="pill primary">探索本周信号 <span>↗</span></a><a href="#action" class="pill ghost">查看战略建议 →</a></div><div class="hero-bottom mono"><span><span class="dot"></span>10.12 — 10.18, 2026</span><span><strong>US + EUROPE</strong></span><span>RESEARCHED · VERIFIED</span></div></div><div class="viz" aria-label="会议、Agent 与 Slides 连接的原创概念插画"><div class="radar"><div class="scan"></div><div class="radar-cross">✳</div></div><div class="float-card card-meeting"><div class="meta mono"><span>01 / SOURCE</span><span>● LIVE CONTEXT</span></div><div class="title">Meeting intelligence</div><div class="wave" aria-hidden="true"><b style="--i:2"></b><b style="--i:5"></b><b style="--i:9"></b><b style="--i:6"></b><b style="--i:12"></b><b style="--i:6"></b><b style="--i:4"></b><b style="--i:9"></b><b style="--i:12"></b><b style="--i:5"></b><b style="--i:8"></b><b style="--i:3"></b><b style="--i:7"></b><b style="--i:4"></b><b style="--i:10"></b><b style="--i:6"></b><b style="--i:3"></b><b style="--i:8"></b></div></div><div class="float-card card-agent"><div class="meta mono"><span>02 / ENGINE</span><span style="color:var(--acid)">● CONTEXT AWARE</span></div><div class="title">Agent orchestration</div><div class="spark"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div><div class="float-card card-slides"><div class="meta mono"><span>03 / OUTCOME</span><span>↗ DELIVERABLE</span></div><div class="title">Editable presentations</div><div class="slide-preview"><div></div><div></div><div></div></div></div></div></div></section>
+<div class="hero-ticker" aria-hidden="true"><div class="ticker-track mono"><span>● <strong>MEETING → AGENT → SLIDES</strong></span><span>THE EDITOR IS NO LONGER THE ONLY ENTRY POINT</span><span>● <strong>CONTEXT IS THE NEW ADVANTAGE</strong></span><span>US & EUROPE / OCTOBER 2026</span><span>● <strong>MEETING → AGENT → SLIDES</strong></span><span>THE EDITOR IS NO LONGER THE ONLY ENTRY POINT</span><span>● <strong>CONTEXT IS THE NEW ADVANTAGE</strong></span><span>US & EUROPE / OCTOBER 2026</span></div></div>
+<section class="thesis" id="summary"><div class="wrap"><div class="sectionhead reveal"><div><span class="kicker">01 / THE BIG PICTURE</span><h2>本周，真正改变的<br>是什么？</h2></div><p class="sectionnote">上期的大型产品发布没有被重复计入。这一周主要出现的是“落地与治理”信号，而不是又一轮 PPT 生成器大战。</p></div><div class="thesis-main reveal"><p class="thesis-line">平台正在把 AI 从“生成内容”推向“<em>替用户完成流程</em>”。Zoom Slides 需要证明：会议原生上下文，能否转化为更好的业务结果。</p><div class="thesis-stamp"><span>INDEPENDENT<br>ANALYSIS</span></div></div><div class="metrics reveal"><div class="metric"><small>PRIORITIZED SIGNALS</small><strong>03</strong><p>只纳入对路线或 GTM 有意义的变化</p></div><div class="metric"><small>PRODUCT ROLLOUT</small><strong>01</strong><p>Google Workspace Studio 会后工作流</p></div><div class="metric"><small>REGULATORY SIGNAL</small><strong>01</strong><p>英国企业软件生态监管提案</p></div></div></div></section>
+<section class="section" id="signals"><div class="wrap"><div class="sectionhead reveal"><div><span class="kicker">02 / THIS WEEK'S SIGNALS</span><h2>Signal over noise<span style="color:var(--acid)">.</span></h2></div><div><p class="sectionnote">事件卡可点击查看完整分析，包括原始证据、机会与威胁，以及需要继续追踪的领先指标。</p><div class="filters" role="group" aria-label="按主题筛选信号"><button class="filter active" data-filter="all">全部 · 03</button><button class="filter" data-filter="workflow">Workflow</button><button class="filter" data-filter="agent">Agent</button><button class="filter" data-filter="gtm">Enterprise / GTM</button></div></div></div><div class="story-grid">
+<article class="story reveal" data-category="workflow"><div class="story-top"><span class="mono num">01 / OCT 13</span><span class="badge">ROLLOUT BEGAN</span></div><h3>Google 把会议后续工作<br>变成自动化流程</h3><p class="sub">Workspace Studio 新增 Meet 参与者信息、动态文档搜索与嵌套条件。会后工作正在从一个按钮，演变为可以编排的系统。</p><div class="story-art art-flow" aria-hidden="true"><div class="node-art active"><svg viewBox="0 0 30 30"><rect x="4" y="7" width="18" height="16" rx="3"/><path d="m22 12 5-4v14l-5-4"/></svg><label>Meet outputs</label></div><span class="arrow-art">→</span><div class="node-art"><svg viewBox="0 0 30 30"><path d="M6 5h18v20H6zM9 10h12M9 15h9M9 20h7"/></svg><label>Find context</label></div><span class="arrow-art">→</span><div class="node-art"><svg viewBox="0 0 30 30"><path d="M4 5h22v20H4zM8 11h12M8 16h15M8 21h9"/></svg><label>Next action</label></div></div><div class="story-bottom"><span>官方公告 10.09 · 开始推送 10.13</span><button class="story-open" data-modal="google">深度分析 <span>↗</span></button></div></article>
+<article class="story reveal" data-category="agent"><div class="story-top"><span class="mono num">02 / OCT 13</span><span class="badge blue">AVAILABLE</span></div><h3>Gemini 4 Argon<br>与任务入口正式可用</h3><p class="sub">新的 Gemini App 强化长任务、应用连接与异步执行；这并不等于 Slides 已升级，但说明 Agent 正在成为工作入口。</p><div class="story-art" aria-hidden="true"><div class="orb-art"><span>4 / ARGON</span></div></div><div class="story-bottom"><span>已对 Google AI Pro / Ultra 用户开放</span><button class="story-open" data-modal="gemini">深度分析 <span>↗</span></button></div></article>
+<article class="story reveal" data-category="gtm"><div><div class="story-top"><span class="mono num">03 / OCT 16</span><span class="badge orange">PROPOSAL · NOT LAW</span></div><h3>英国 CMA 对微软办公生态<br>提出战略市场地位认定</h3><p class="sub">这还不是监管结果，却可能改变欧洲企业软件的捆绑与互操作讨论。对 Zoom 的影响在渠道、采购与差异化，而非短期功能竞争。</p></div><div class="story-art reg-art" aria-label="表现市场集中度议题的原创柱体插图"><div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="bar"></div></div><div class="story-bottom"><span>官方咨询截至 11 月 13 日 · 尚待最终决定</span><button class="story-open" data-modal="cma">深度分析 <span>↗</span></button></div></article>
+</div><div class="state-strip mono"><div class="state"><b></b> rollout：已开始逐步推送</div><div class="state"><b></b> available：已明确开放</div><div class="state"><b></b> proposal：监管提案，尚未生效</div></div></div></section>
+<section class="section mapsec" id="landscape"><div class="wrap"><div class="sectionhead reveal"><div><span class="kicker">03 / COMPETITIVE LANDSCAPE</span><h2>入口之战，<br>正在改写边界。</h2></div><p class="sectionnote">这是基于公开产品定位的<strong style="color:var(--acid)">分析性示意图</strong>，不是市场份额或量化评分。点击公司名称查看相关竞争判断。</p></div><div class="map-grid"><div class="quadrant reveal" aria-label="不同竞品在工作流深度与视觉创作自由度之间的定性比较"><span class="axis top">HIGH WORKFLOW DEPTH</span><span class="axis bottom">LOW WORKFLOW DEPTH</span><span class="axis left">CREATION TOOLS</span><span class="axis right">AGENT SURFACE</span><button class="point" style="left:70%;top:22%;--pc:#dbff81" data-name="Zoom Slides" data-copy="Zoom 的待验证优势：会议上下文、会中协作以及会后交付的原生闭环。这里代表目标定位，并非已经证实领先。"><i></i>Zoom Slides*</button><button class="point" style="left:40%;top:39%;--pc:#c4aff8" data-name="Gamma" data-copy="AI 原生视觉创作领先一步，同时通过连接器、API 与 Agent 进入工作上下文。"><i></i>Gamma</button><button class="point" style="left:73%;top:61%;--pc:#a9c5ff" data-name="Claude" data-copy="Claude 从 AI 工作入口反向创建与编辑文档、演示；可以把编辑器变成被调用的工具。"><i></i>Claude</button><button class="point" style="left:39%;top:20%;--pc:#f4ad84" data-name="Microsoft" data-copy="Office in Copilot 与 M365 数据、权限、采购体系深度结合。此为竞争基线，非本周新发布。"><i></i>Microsoft</button><button class="point" style="left:59%;top:38%;--pc:#92d9d5" data-name="Google" data-copy="Workspace Studio 与 Gemini 把协作应用、自动化和 Agent 任务编织在同一生态中。"><i></i>Google</button><button class="point" style="left:19%;top:70%;--pc:#d9aef8" data-name="Canva" data-copy="品牌视觉、模板与多格式内容制作具备优势；本周未核实到同等级演示发布。"><i></i>Canva</button></div><div class="map-copy reveal"><span class="kicker">THE STRATEGIC SHIFT</span><h3>演示编辑器<br>不一定还是<br>用户的第一站。</h3><p>用户可能先向 Agent 下达任务，再由 Agent 生成、修改并交付演示文稿。Zoom Slides 的角色必须同时是专业编辑器，也是一个可被 AI 调用的执行引擎。</p><div class="map-insight"><strong id="competitorName" class="mono">ZOOM SLIDES · THESIS</strong><p id="competitorCopy">Zoom 的待验证优势：会议上下文、会中协作以及会后交付的原生闭环。这里代表目标定位，并非已经证实领先。</p></div><p class="map-caveat">* Zoom Slides 点位表示建议的战略方向，不代表客观能力评分；其它点位也仅用于表达竞争方向。</p></div></div></div></section>
+<section class="section flow-section" id="workflow"><div class="wrap"><div class="sectionhead reveal"><div><span class="kicker">04 / PRODUCT OPPORTUNITY</span><h2>Meeting-to-Slides<br>应该是一条工作流。</h2></div><p class="sectionnote">不是“把 Transcript 丢进模型”那么简单。逐步点击下面五个阶段，查看 Zoom 可以真正创造差异化的环节。</p></div><div class="flow-visual reveal" role="group" aria-label="交互式 Meeting-to-Slides 价值链"><button class="flow-segment active" data-step="0"><div class="glyph">◎</div><span>01 / CAPTURE</span></button><div class="flow-line"></div><button class="flow-segment" data-step="1"><div class="glyph">⌁</div><span>02 / REASON</span></button><div class="flow-line"></div><button class="flow-segment" data-step="2"><div class="glyph">▤</div><span>03 / EDIT</span></button><div class="flow-line"></div><button class="flow-segment" data-step="3"><div class="glyph">↗</div><span>04 / PRESENT</span></button><div class="flow-line"></div><button class="flow-segment" data-step="4"><div class="glyph">∞</div><span>05 / REUSE</span></button></div><div class="flow-info reveal"><div><span class="flow-label mono" id="flowLabel">01 / CAPTURE</span><h3 id="flowTitle">识别真正的会议上下文</h3></div><p id="flowDesc">不是所有会议都需要一份 Slides。先判断会议类型、参与者角色、确定的决策与尚未达成共识的事项，并保留可追溯来源。</p></div></div></section>
+<section class="strategy" id="action"><div class="wrap"><div class="sectionhead reveal"><div><span class="kicker">05 / STRATEGIC ACTIONS</span><h2>What Zoom Slides<br>should do next.</h2></div><p class="sectionnote">建议的优先级根据这周的证据与长期竞争趋势作出，不等于已批准的产品计划。</p></div><div class="strategy-cards"><div class="strat now reveal"><small>HIGHEST PRIORITY / THIS CYCLE</small><h3>Now.</h3><ol><li>用真实客户会议，跑通 Meeting → Slides 对标实验</li><li>衡量 Time-to-Deliver，而不只看首次生成速度</li><li>明确 Agent 创建、编辑、回滚与权限 API</li></ol><div class="foot mono">SUCCESS METRIC → DELIVERY TIME / FACT ACCURACY / EDIT COST</div></div><div class="strat next reveal"><small>BUILD THE ADVANTAGE</small><h3>Next.</h3><ol><li>会议类型与受众驱动的智能分发入口</li><li>可复用的团队品牌、知识与合规规范</li><li>保留会议事实出处的持续编辑工作流</li></ol><div class="foot mono">VALIDATE → REPEAT USAGE / SHARE COMPLETION</div></div><div class="strat watch reveal"><small>NEEDS FURTHER EVIDENCE</small><h3>Watch.</h3><ol><li>Google Studio 会后自动化是否连接 Slides</li><li>Agent 入口是否改变演示的启动位置</li><li>英国监管是否推动办公生态互操作</li></ol><div class="foot mono">NO MAJOR BUILD COMMITMENT YET</div></div></div><div class="strategy-note reveal"><strong>研究纪律 /</strong><span>优先验证结果，不为了追热点堆功能。特别警惕自动生成大量“没人需要的 Slides”，以及把未经确认的会议讨论写成正式结论。</span></div></div></section>
+<section class="compare" id="delta"><div class="wrap"><div class="sectionhead reveal"><div><span class="kicker">06 / CHANGE DETECTION</span><h2>与上一期相比。</h2></div><p class="sectionnote">把“上期发布”和“本期落地”分开记录，避免把旧新闻包装成市场新变化。</p></div><div class="compare-grid"><div class="week reveal"><div class="mono">PREVIOUS · 05—11 OCT</div><h3>产品边界重划</h3><ul><li><i>↗</i> Gamma 5 发布：品牌 + Freeform + Agent 编辑</li><li><i>↗</i> Claude 进入 Google Slides：双入口编辑</li><li><i>↗</i> Google 宣布 Studio 会后流程增强</li></ul></div><div class="week active reveal"><div class="mono">CURRENT · 12—18 OCT</div><h3>落地与治理信号</h3><ul><li><i>●</i> Workspace Studio 于 10.13 开始逐步推送</li><li><i>●</i> Gemini 4 Argon 和任务入口 10.13 正式开放</li><li><i>●</i> 英国 CMA 于 10.16 发布微软 SMS 拟议决定</li></ul></div></div></div></section>
+<section class="sources" id="sources"><div class="wrap"><div class="sectionhead reveal"><div><span class="kicker">07 / SOURCE DESK</span><h2>Evidence, not hype.</h2></div><p class="sectionnote">优先选用一手公告，所有重大观点都保留状态与时间区别；点击卡片访问原始内容。</p></div><div class="source-grid"><a class="source reveal" target="_blank" rel="noopener noreferrer" href="https://workspaceupdates.googleblog.com/2026/10/new-logic-and-search-steps-in-workspace-Studio-help-expand-automation-capabilities.html"><span class="mono">GOOGLE WORKSPACE · 09 OCT</span><strong>Workspace Studio — new logic &amp; search steps</strong><span>发布 10.09 → 开始推送 10.13 ↗</span></a><a class="source reveal" target="_blank" rel="noopener noreferrer" href="https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/"><span class="mono">GOOGLE BLOG · 13 OCT</span><strong>Gemini 4 Argon comes to the Gemini app</strong><span>模型与 Tasks 入口可用 ↗</span></a><a class="source reveal" target="_blank" rel="noopener noreferrer" href="https://www.gov.uk/government/news/cma-takes-first-steps-to-ensure-choice-in-business-software"><span class="mono">UK CMA · 16 OCT</span><strong>CMA takes first steps to ensure choice in business software</strong><span>拟议决定 · 非最终结论 ↗</span></a><a class="source reveal" target="_blank" rel="noopener noreferrer" href="https://gamma.app/insights/introducing-gamma-5-your-story-your-style-your-tools"><span class="mono">GAMMA · 06 OCT</span><strong>Gamma 5 — previous week baseline</strong><span>上期背景，不计入本周事件 ↗</span></a></div><p class="disclaimer">研究口径：2026.10.12—10.18；仅美国及欧洲相关市场。对全球产品公告的引用只用于判断欧美竞争影响，不代表已取得区域采用数据。图表中公司位置为产品策略定性示意，非业绩排名、市场份额或量化测量。对于未列出的 Microsoft、Canva、Pitch、Beautiful.ai 新变化，本期并不据此断言其没有更新；只是没有把不够有证据或影响力的变化凑入主线。本页为独立产品战略研究，不代表 Zoom 官方立场。</p></div></section>
+</main>
+<footer><div class="wrap"><div class="footer-grid"><div><div class="mono">AN INTELLIGENCE PRODUCT FOR PRODUCT PEOPLE</div><div class="footer-title">LESS NOISE.<br>MORE SIGNAL.</div><div class="footer-small">Zoom Slides · Market Intelligence / Weekly 42 · 2026</div></div><div class="footer-right"><div class="mono">THE QUESTION WE KEEP ASKING</div><p style="font-size:19px;font-weight:700;letter-spacing:-.04em;max-width:360px">什么值得做？<br>什么值得等？<br>什么应该忽略？</p><div class="footer-buttons"><button id="shareBtn">复制本期链接 ↗</button><button onclick="window.print()">导出 / 打印 ↗</button><a href="#top">返回顶部 ↑</a></div></div></div><div class="footline mono"><span>© 2026 SLIDES INTELLIGENCE · INDEPENDENT ANALYSIS</span><span>US / EUROPE · 12—18 OCT 2026</span></div></div></footer>
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" tabindex="-1"><div class="modal-panel"><button class="modal-close" id="modalClose" aria-label="关闭分析弹窗">×</button><div id="modalContents"></div></div></div><div id="toast" role="status" aria-live="polite">已复制本期链接</div>
+<template id="detail-google"><div class="modal-head"><span class="mono">01 / WORKFLOW · ROLLOUT STARTED 13 OCT 2026</span><h2 id="modalTitle">Google 把 Meeting 后续工作变成可编排的流程</h2></div><div class="modal-body"><div class="takeaway">对 Zoom Slides 的意义：竞争不再只是“会后生成文稿”，而是“会议结束后触发什么正确动作”。</div><h3>WHAT HAPPENED</h3><p>Google 于 10 月 9 日公告 Workspace Studio 的一组增强：嵌套条件、Gmail 触发过滤、Meet Calendar Outputs（扩展到完整受邀人名单及会后邮件草稿模板），以及 Search for a Doc（按条件寻找 Drive 文件）。公告明确表示从 10 月 13 日开始向符合条件的域逐步推送，最长约 15 天。</p><h3>WHY IT MATTERS</h3><p>Google 把会后流程拆成可配置的触发器、上下文查找、逻辑判断和执行动作。这说明进入用户日常的入口可能并不是单个 AI 按钮，而是团队可复用的工作流。但公告没有证明 Google 已经交付完整的“Meeting → Slides 自动生成”链路，不应夸大。</p><h3>ZOOM OPPORTUNITY / THREAT</h3><p>Zoom 的独特价值应是对真实会议语义的理解，包括角色、异议、决策状态和接下来需要完成的业务动作。若只是自动附加一份 Transcript，第三方工具足以替代。建议先验证哪些会议真正值得生成 Slides，以及怎么给用户明确的确认与审核步骤。</p><h3>WHAT TO WATCH</h3><ul><li>Studio 是否出现明确的 Meet → Slides 模板，而不只是邮件自动化。</li><li>企业是否跨多个会议持续复用同一套流程。</li><li>自动触发是否改善最终交付，还是只是创造更多冗余内容。</li></ul><p class="micro">证据：Google Workspace Updates；公告 2026-10-09，开始推送 2026-10-13。<a href="https://workspaceupdates.googleblog.com/2026/10/new-logic-and-search-steps-in-workspace-Studio-help-expand-automation-capabilities.html" target="_blank" rel="noopener">官方来源 ↗</a></p></div></template>
+<template id="detail-gemini"><div class="modal-head"><span class="mono">02 / AGENT · AVAILABLE 13 OCT 2026</span><h2 id="modalTitle">Gemini 4 Argon 上线：Agent 正在成为工作入口</h2></div><div class="modal-body"><div class="takeaway">对 Zoom Slides 的意义：未来 Slides 不只需要“内置 Agent”，也应该让“外部 Agent 可以安全地使用 Slides”。</div><h3>WHAT HAPPENED</h3><p>Google 于 10 月 13 日宣布 Gemini 4 Argon 可在 Gemini App 使用，面向 Google AI Pro 与 Ultra 用户，并介绍从聊天界面切换到 Tasks 的方式，让 Gemini 在用户离开电脑时推进工作。Google 同时强调更长任务的进度反馈，以及连接 40 多个应用的能力。</p><h3>WHAT'S CONFIRMED / NOT CONFIRMED</h3><p>官方确认的是 Gemini App 的模型与任务入口可用；不能据此推断 10 月 13 日已在 Google Slides 内全面替换模型，也不能把“连接 40+ 应用”理解为全部应用均支持原生编辑 Slides。</p><h3>ZOOM OPPORTUNITY / THREAT</h3><p>当用户从通用 Agent 发起任务，演示工具可能退居执行层。Zoom Slides 应优先建立 Agent 可调用能力：创建、读写页面结构、应用品牌、进行精确编辑、权限检查、回滚、导出与分享。避免在 Slides 与 Suite 通用 Agent 之间重复建设记忆和任务路由。</p><h3>WHAT TO WATCH</h3><ul><li>用户是否开始从通用 Agent 而不是编辑器启动演示任务。</li><li>长任务的实际成功率、审核成本和错误恢复能力。</li><li>跨应用上下文能否稳定地落入原生、可编辑的页面元素。</li></ul><p class="micro">证据：Google 官方博客；2026-10-13。<a href="https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/" target="_blank" rel="noopener">官方来源 ↗</a></p></div></template>
+<template id="detail-cma"><div class="modal-head"><span class="mono">03 / ENTERPRISE & GTM · PROPOSAL 16 OCT 2026</span><h2 id="modalTitle">英国 CMA 将微软办公软件生态带入新的监管审查阶段</h2></div><div class="modal-body"><div class="takeaway">对 Zoom Slides 的意义：可能改变企业软件的选择权与互操作讨论，但近期不应根据提案调整产品商业承诺。</div><h3>WHAT HAPPENED</h3><p>英国竞争与市场管理局（CMA）于 10 月 16 日提出拟议决定：考虑将微软在企业软件生态中的地位指定为 Strategic Market Status（SMS），同时发布可能干预方向的路线图并展开咨询。意见征集截至 11 月 13 日；这不是最终认定，也不是已经施行的新规则。</p><h3>WHY IT MATTERS</h3><p>Office、Teams 与 Copilot 的企业捆绑和转换成本会影响新办公工具的分发。若未来政策真的强化互操作性和用户选择权，独立或跨套件产品可能受益。但政策范围、时序与具体执行尚有很大不确定性，尤其不应推断微软会被强制开放某一具体 API。</p><h3>ZOOM OPPORTUNITY / THREAT</h3><p>Zoom Slides 的 GTM 应关注企业在现有 Office 环境中的补充采购场景，而不是假设企业会迁移整套办公系统。导入导出兼容性、权限、内容治理、与现有会议及沟通工作流的连接，是更加现实的购买理由。</p><h3>WHAT TO WATCH</h3><ul><li>11 月 13 日咨询截止后的政策进展与正式决定。</li><li>可能干预清单是否具体涉及协作应用、捆绑或数据可移植性。</li><li>大型企业采购的互操作要求是否发生可观测变化。</li></ul><p class="micro">证据：UK Competition and Markets Authority；2026-10-16。<a href="https://www.gov.uk/government/news/cma-takes-first-steps-to-ensure-choice-in-business-software" target="_blank" rel="noopener">官方新闻稿 ↗</a> · <a href="https://www.gov.uk/cma-cases/microsofts-business-software-ecosystem" target="_blank" rel="noopener">案件与咨询页面 ↗</a></p></div></template>
+<script>
+(function(){
+'use strict';
+var progress=document.getElementById('progress');var themeBtn=document.getElementById('themeBtn');var root=document.body;
+function updateProgress(){var max=document.documentElement.scrollHeight-innerHeight;progress.style.width=(max>0?Math.min(100,100*scrollY/max):0)+'%'}
+
+addEventListener('scroll',updateProgress,{passive:true}
+);addEventListener('resize',updateProgress);updateProgress();
+try{if(localStorage.getItem('sintel_theme')==='light')root.classList.add('light')}
+catch(e){}
+
+themeBtn.addEventListener('click',function(){root.classList.toggle('light');try{localStorage.setItem('sintel_theme',root.classList.contains('light')?'light':'dark')}
+catch(e){}
+}
+);
+var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target)}
+}
+)}
+,{threshold:.08}
+);document.querySelectorAll('.reveal').forEach(function(n){obs.observe(n)}
+);
+document.querySelectorAll('[data-filter]').forEach(function(b){b.addEventListener('click',function(){document.querySelectorAll('[data-filter]').forEach(function(x){x.classList.toggle('active',x===b)}
+);document.querySelectorAll('.story').forEach(function(c){c.classList.toggle('hide',b.dataset.filter!=='all'&&c.dataset.category!==b.dataset.filter)}
+)}
+)}
+);
+var modal=document.getElementById('modal');var lastFocus=null;function closeModal(){modal.classList.remove('open');document.body.style.overflow='';if(lastFocus)lastFocus.focus()}
+
+document.querySelectorAll('[data-modal]').forEach(function(b){b.addEventListener('click',function(){var t=document.getElementById('detail-'+b.dataset.modal);if(!t)return;lastFocus=b;document.getElementById('modalContents').innerHTML=t.innerHTML;modal.classList.add('open');document.body.style.overflow='hidden';document.getElementById('modalClose').focus()}
+)}
+);document.getElementById('modalClose').addEventListener('click',closeModal);modal.addEventListener('click',function(e){if(e.target===modal)closeModal()}
+);document.addEventListener('keydown',function(e){if(e.key==='Escape'&&modal.classList.contains('open'))closeModal()}
+);
+document.querySelectorAll('.point').forEach(function(b){b.addEventListener('click',function(){document.getElementById('competitorName').textContent=b.dataset.name;document.getElementById('competitorCopy').textContent=b.dataset.copy}
+)}
+);
+var flow=[['01 / CAPTURE','识别真正的会议上下文','不是所有会议都需要一份 Slides。先判断会议类型、参与者角色、确定的决策与尚未达成共识的事项，并保留可追溯来源。'],['02 / REASON','把讨论转成面向受众的结构','从会议内容推导不同受众最关心的信息、需要回答的异议与下一步行动；对不确定结论明确标注，不自动编造成事实。'],['03 / EDIT','让用户可以放心接手精修','AI 生成的是原生可编辑元素。用户能够精确编辑、套用团队品牌、查看改动并撤销，不需要为了小调整重做整份演示。'],['04 / PRESENT','衔接会中呈现与会后分享','为现场讲解、协作演示及异步传播提供不同交付形态，继承相应的分享权限与访问控制。'],['05 / REUSE','结果回到组织知识链路','让每一次汇报产生的确认内容、反馈和最终版本可以被后续工作合理复用，形成长期的效率优势。']];document.querySelectorAll('[data-step]').forEach(function(b){b.addEventListener('click',function(){var k=Number(b.dataset.step);document.querySelectorAll('[data-step]').forEach(function(x){x.classList.toggle('active',x===b)}
+);document.getElementById('flowLabel').textContent=flow[k][0];document.getElementById('flowTitle').textContent=flow[k][1];document.getElementById('flowDesc').textContent=flow[k][2]}
+)}
+);
+var toast=document.getElementById('toast');document.getElementById('shareBtn').addEventListener('click',function(){var text=location.href.split('#')[0];function show(){toast.classList.add('show');setTimeout(function(){toast.classList.remove('show')}
+,2400)}
+if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(text).then(show,function(){prompt('复制链接：',text)}
+)}
+else{prompt('复制链接：',text)}
+}
+);
+}
+)();
+</script>
+</body>
+</html>
